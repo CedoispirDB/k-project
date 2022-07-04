@@ -50,6 +50,7 @@
     border: 1px solid var(--primary);
     padding: 2px;
     cursor: pointer;
+    margin-top: 11px;
 }
 
 .sign_in_btn {

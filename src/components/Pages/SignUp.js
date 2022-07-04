@@ -50,6 +50,10 @@ function SignUp({ isSignedIn, setSignedIn, usernames, location, signUp}) {
 
     }
 
+    function handleBack() {
+        navigate('/profile', { replace: true })
+    }
+
 
     return (
         <>
@@ -76,7 +80,8 @@ function SignUp({ isSignedIn, setSignedIn, usernames, location, signUp}) {
                     /><br />
                     {show && <div className='error_msg'>{msg}</div>}
                     <button onClick={handleSignUp} className='btn_sign btn_sign_up'>Sign up</button>
-
+                    <br/>
+                    <button onClick={handleBack} className='btn_sign back_btn'>Back</button>
                 </div>
             </div>
 
