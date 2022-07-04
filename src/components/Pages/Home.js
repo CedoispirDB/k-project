@@ -4,7 +4,7 @@ import SeriesList from '../SeriesList'
 
 function Home({ series, prevPage, nextPage, pageNum }) {
  
-
+ 
   return (
     <>
       <div className='cards'>

@@ -14,6 +14,18 @@ function UserSeries({ series, prevPage, nextPage, pageNum, category, isSignedIn 
     }
 
 
+   
+    let overflow = "";
+    
+    // console.log(window.innerWidth)
+
+    overflow = "";
+
+    if(series !== undefined && mySeries.length < 4) {
+        overflow = " user_series_container";
+    }
+    console.log(overflow);
+    
 
     return (
         <>
@@ -28,7 +40,7 @@ function UserSeries({ series, prevPage, nextPage, pageNum, category, isSignedIn 
                         {/* {navigate('/profile', { replace: false })} */}
                 </div>
                 :
-                <div className='cards user_series_container'>
+                <div className={`cards${overflow}`}>
                     <div className='cards__container'>
                         <div className='cards__wrapper big'>
                             <ul className='grid_container' >
