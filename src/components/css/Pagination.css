@@ -1,0 +1,49 @@
+.btn_container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+    bottom: 13px;
+}
+
+.btn {
+    border: solid black;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 9px;
+    background: transparent;
+    margin-left: 1px;
+    margin-right: 1px;
+    cursor: pointer;
+}
+
+.page_number {
+ 
+    font-size: 20px;
+    bottom: -3px;
+    font-weight: bold;
+    z-index: 1;
+    cursor: default;
+    width: 34px;
+    text-align: center;
+}
+
+.right {
+    transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+}
+
+.btn:hover {
+    /* transition: all 0.3 ease-out; */
+    border-color:rgb(222, 14, 125);
+}
+
+.hide {
+    border: transparent;
+    cursor: default;
+}

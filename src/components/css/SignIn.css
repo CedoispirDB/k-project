@@ -1,0 +1,180 @@
+:root {
+    --primary: rgb(247, 17, 138);
+}
+
+
+.container {
+    background: linear-gradient(135deg, rgb(8, 100, 109) 0%, rgb(135, 8, 75) 100%);
+    height: calc(100vh - 80px);
+}
+
+.sign_in_container {
+    right: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(50%, -50%);
+    /* height: 50vh;
+    width: 50vh; */
+    height: 343px;
+    width: 343px;
+
+    text-align: center;
+    box-shadow: -1px 2px 17px black;
+}
+
+.sign_in_title {
+    color: var(--primary);
+    font-family: mild;
+    padding-top: 23px;
+    font-size: 1.9em;
+    padding-bottom: 34px;
+}
+
+.username_label {}
+
+.username_field {
+    margin-bottom: 10px;
+}
+
+.pass_label {}
+
+.pass_field {
+
+}
+
+.btn_sign {
+    font-size: 18px;
+    background: black;
+    color: var(--primary);
+    font-family: mild;
+    border: 1px solid var(--primary);
+    padding: 2px;
+    cursor: pointer;
+}
+
+.sign_in_btn {
+
+    /* font-weight: bold; */
+
+}
+
+
+label {
+    color: var(--primary);
+    font-size: 26px;
+    font-family: mild;
+    /* font-weight: bold; */
+
+}
+
+input {
+    background-color: black;
+    outline: solid 1px var(--primary);
+    border: none;
+    color: white;
+    transition: outline 1s ease-out;
+    padding-left: 4px;
+
+}
+
+input:focus {
+    transform: scale(1, 1.1);
+    outline: solid 1px rgb(71, 52, 243);
+}
+
+.btn_sign:hover {
+    border: 1px solid black;
+    background: var(--primary);
+    color: black;
+    transform: scale(1.2, 1.2);
+
+}
+
+.error_msg {
+    font-family: mild;
+    color: var(--primary);
+    font-size: 19px;
+    margin-top: 18px;
+    border: solid 2px;
+    width: fit-content;
+    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.question {
+    color: var(--primary);
+    font-family: mild;
+    font-size: 16px;
+    margin-top: 18px;
+    margin-bottom: 6px;
+}
+
+.sign_up_btn {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.login_warning {
+    top: 28%;
+    position: relative;
+    transform: translate(0, -50%);
+    font-weight: bold;
+    color: var(--primary);
+    font-family: mild;
+    font-size: 17px;
+}
+
+.min {
+    height: 22vh;
+    padding: 17px;
+}
+
+.btn_min {
+    font-size: 18px;
+    background: black;
+    color: var(--primary);
+    font-family: mild;
+    border: 1px solid var(--primary);
+    padding: 2px;
+    margin: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    margin: 0px;
+}
+
+.btn_sign_up {
+    margin: 16px;
+    
+}
+
+.btn_min:hover {
+    border: 1px solid black;
+    background: var(--primary);
+    color: black;
+}
+
+.btn_link {
+    width: 60px;
+    display: inline-block;
+    margin: 16px;
+}
+
+@media only screen and (max-height:543px) {
+   
+    .sign_in_container {
+        top:89%;
+    }
+}
+
+@media only screen and (max-height:520px) {
+    
+    .sign_in_container {
+        top:100%;
+    }
+
+
+}

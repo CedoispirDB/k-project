@@ -1,0 +1,98 @@
+:root {
+    --primary: rgb(247, 17, 138);
+}
+
+.profile_container {
+    background: linear-gradient(135deg, rgb(8, 100, 109) 0%, rgb(135, 8, 75) 100%);
+    height: calc(100vh - 80px);
+}
+
+.profile_wrapper {
+    display: grid;
+    grid-template-rows: auto auto;
+    position: relative;
+    grid-gap: 70px;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+
+}
+
+.status {
+    color: var(--primary);
+    font-family: mild;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.total_episodes {
+    text-align: center;
+    padding-top: 12px;
+    top: 28%;
+    position: relative;
+    transform: translate(0, -50%);
+    font-weight: bold;
+    color: var(--primary);
+    font-family: mild;
+    font-size: 17px;
+}
+
+.total_numb {
+    font-size: 20px;
+
+}
+
+.total_text {
+    font-size: 20px;
+
+}
+
+
+.box {
+    box-shadow: -1px 2px 17px black;
+    padding: 17px;
+}
+
+.btn_logout {
+    font-size: 18px;
+    background: black;
+    color: var(--primary);
+    font-family: mild;
+    border: 1px solid var(--primary);
+    padding: 2px;
+    cursor: pointer;
+    height: fit-content;
+}
+
+.btn_logout:hover {
+    border: 1px solid black;
+    background: var(--primary);
+    color: black;
+    transform: scale(1.2, 1.2);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.link:hover {
+    color: rgb(212, 13, 119);
+}
+
+@media only screen and (max-height:490px) {
+
+
+    .profile_wrapper {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+
+    .btn_logout {
+        margin-left: 104%;
+        width: fit-content;
+
+    }
+
+}
