@@ -1,0 +1,28 @@
+.search_container {
+    background: linear-gradient(135deg, rgb(8, 100, 109) 0%, rgb(135, 8, 75) 100%);
+    /* height: calc(100vh - 80px); */
+}
+
+.search_bar_container {
+    text-align: center;
+}
+
+.search_bar {
+    width: 280px;
+    height: 35px;
+    margin: 40px;
+    background-color: black;
+    outline: solid 1px var(--primary);
+    border: none;
+    color: white;
+    transition: outline 1s ease-out;
+    padding-left: 10px;
+    font-family: mild;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.search_bar:focus {
+    transform: scale(1, 1.1);
+    outline: solid 1px rgb(71, 52, 243);
+}

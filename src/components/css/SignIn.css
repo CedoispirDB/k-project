@@ -68,7 +68,7 @@ label {
 
 }
 
-input {
+.user_input {
     background-color: black;
     outline: solid 1px var(--primary);
     border: none;
@@ -78,7 +78,7 @@ input {
 
 }
 
-input:focus {
+.user_input:focus {
     transform: scale(1, 1.1);
     outline: solid 1px rgb(71, 52, 243);
 }

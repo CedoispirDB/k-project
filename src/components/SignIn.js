@@ -25,7 +25,7 @@ function SignIn({ handleNameChange, handlePassChange, signIn, status, signUp }) 
                         type="text"
                         name="usernameInput"
                         onChange={handleNameChange}
-                        className='username_field'
+                        className='username_field user_input'
                         placeholder='Username'
                     />
                     <br />
@@ -34,7 +34,7 @@ function SignIn({ handleNameChange, handlePassChange, signIn, status, signUp }) 
                         type="password"
                         name="passInput"
                         onChange={handlePassChange}
-                        className='pass_field'
+                        className='pass_field user_input'
                         placeholder='Password'
                     /><br />
                     {status && <div className='error_msg'>{status}</div>}

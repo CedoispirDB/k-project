@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './css/Navbar.css'
 
-export default function Navbar({name, signedIn }) {
+export default function Navbar({ name, signedIn }) {
 
     const [click, setClick] = useState(false);
 
@@ -12,12 +12,12 @@ export default function Navbar({name, signedIn }) {
 
     let title = "Profile";
 
-    if(name !== "init_mate") {
-        if(signedIn) {
+    if (name !== "init_mate") {
+        if (signedIn) {
             title = name;
         }
     }
- 
+
     return (
         <>
             <nav className="navbar">
@@ -29,6 +29,11 @@ export default function Navbar({name, signedIn }) {
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                        <li className='nav-item'>
+                            <Link to='/search' className='nav-links' onClick={closeMobileMenu}>
+                                Search
+                            </Link>
+                        </li>
                         <li className='nav-item'>
                             <Link to='/watched' className='nav-links' onClick={closeMobileMenu}>
                                 Watched
@@ -49,6 +54,7 @@ export default function Navbar({name, signedIn }) {
                                 {title}
                             </Link>
                         </li>
+
                     </ul>
                 </div>
             </nav>

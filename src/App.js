@@ -8,7 +8,7 @@ import Info from './components/Pages/Info'
 import Profile from './components/Pages/Profile';
 import SignUp from './components/Pages/SignUp';
 import UserSeries from './components/Pages/UserSeries';
-
+import Search from './components/Pages/Search';
 
 const location = "192.168.0.120";
 
@@ -142,12 +142,14 @@ function App() {
     delete newData["status"];
     axios.post(`http://${location}:4800/saveNewUserData`, {
       data: {
-        username: username, 
-        pass: pass, 
+        username: username,
+        pass: pass,
         newData
       }
     });
   }
+
+
 
   return (
     <>
@@ -160,6 +162,7 @@ function App() {
               nextPage={pageNum < 43 ? nextPage : null}
               pageNum={pageNum} />}
           />
+          <Route path='/search' exact element={<Search series={series}/>} />
           <Route path='/watched' exact element={
             <UserSeries series={userData}
               prevPage={pageNum > 0 ? prevPage : null}
@@ -188,7 +191,7 @@ function App() {
             />}
           />
 
-          <Route path='/info' exact element={<Info series={series} data={userData} saveNewSeries={saveNewSeries} signedIn={signedIn}/>} />
+          <Route path='/info' exact element={<Info series={series} data={userData} saveNewSeries={saveNewSeries} signedIn={signedIn} />} />
           <Route path='/profile' exact element={
             <Profile
               handleNameChange={handleNameChange}

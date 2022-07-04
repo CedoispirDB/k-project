@@ -5,6 +5,7 @@ import Series from './Series'
 
 function SeriesList({ series }) {
 
+    // console.log(series);
     if (series !== undefined && series.length > 0) {
 
         return (
