@@ -161,7 +161,8 @@ function Info({ series, data, saveNewSeries, signedIn }) {
           "imgUrl": currentSerie.imgUrl,
           "rating": 0,
           "currentEp": 0,
-          "id": currentSerie.id
+          "id": currentSerie.id,
+          "total_episodes": currentSerie["No. of episodes"]
         }
       );
     }
