@@ -13,14 +13,37 @@ function Search({ series }) {
 
 
     function handleChange(event) {
+        setShow(false);
         setSearchInput(event.target.value);
     }
 
     function search(event) {
         if (event.keyCode === 13) {
-            let found = series.filter(serie => serie.name === searchInput);
-            if (found.length > 0) {
-                navigate(`/info?name=${found[0].name}`, { replace: true })
+            let found = '';
+            for(var i = 0; i < series.length; i++) {
+                let serie = series[i].name;
+                if(serie === searchInput) {
+                    found = serie;
+                    break;
+                } 
+
+                if(serie.toLowerCase() === searchInput.toLowerCase()) {
+                    found = serie;
+                    break;
+                }
+
+                if(serie.replace(/[^a-z0-9]/gi, ' ') === searchInput) {
+                    found = serie;
+                    break;
+                }
+
+                if(serie.replace(/[^a-z0-9]/gi, ' ').toLowerCase() === searchInput.toLowerCase()) {
+                    found = serie;
+                    break;
+                }
+            }
+            if (found !== '') {
+                navigate(`/info?name=${found}`, { replace: true })
             } else {
                 setShow(true);
             }
@@ -39,7 +62,7 @@ function Search({ series }) {
 
             </div>
 
-            <div className='cards__container'>
+            {/* <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='grid_container'>
                         <SeriesList series={
@@ -56,7 +79,8 @@ function Search({ series }) {
                     </ul>
                 </div>
             </div>
-        </div>
+            */}
+        </div> 
     )
 }
 

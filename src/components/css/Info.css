@@ -55,7 +55,7 @@
     width: fit-content;
     height: fit-content;
     margin: 10px;
-  
+
 }
 
 .options_select {
@@ -70,7 +70,6 @@
     padding-bottom: 1px;
 }
 
-.status_text {}
 
 .info_form {
     display: flex;
@@ -85,7 +84,19 @@
     margin: 14px;
 }
 
-.hide_info {}
+.status_login {
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: bold;
+    font-family: mild;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.status_login:hover {
+    color: rgb(212, 13, 119);
+
+}
+
 
 @media only screen and (max-width: 764px) {
     .info_img {
@@ -123,9 +134,7 @@
         margin-top: 94px;
     }
 
-    .info_details>p {
-        /* margin-bottom: 52px; */
-    }
+
 
     .dif {
         margin-bottom: 0px;
@@ -163,9 +172,6 @@
         margin-top: 85px;
     }
 
-    .info_details>p {
-        /* margin-bottom: 52px; */
-    }
 
     .dif {
         margin-bottom: 0px;
@@ -199,5 +205,5 @@
         margin-left: 20px;
     }
 
-    
+
 }

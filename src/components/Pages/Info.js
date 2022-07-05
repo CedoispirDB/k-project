@@ -1,5 +1,5 @@
 import {React, useState, useEffect } from 'react'
-import { useLocation  } from 'react-router-dom'
+import { Link, useLocation  } from 'react-router-dom'
 import "../css/Info.css"
 
 function Info({ series, data, saveNewSeries, signedIn }) {
@@ -221,7 +221,10 @@ function Info({ series, data, saveNewSeries, signedIn }) {
             </div>
             <div className={!signedIn ? 'info_status_text' : 'info_status'}>
               {!signedIn ?
-                "Status: login to see it"
+                <>
+                Status:
+                <Link to="/profile" className='status_login'>login to see</Link>
+                </>
                 :
                 
                 <form name='viewer_options' className='info_form' >
