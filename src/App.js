@@ -9,6 +9,7 @@ import Profile from './components/Pages/Profile';
 import SignUp from './components/Pages/SignUp';
 import UserSeries from './components/Pages/UserSeries';
 import Search from './components/Pages/Search';
+import Footer from './components/Footer';
 
 const location = "192.168.0.120";
 
@@ -166,7 +167,7 @@ function App() {
               nextPage={pageNum < 43 ? nextPage : null}
               pageNum={pageNum} />}
           />
-          <Route path='/search' exact element={<Search series={series}/>} />
+          <Route path='/search' exact element={<Search series={series} />} />
           <Route path='/watched' exact element={
             <UserSeries series={userData}
               prevPage={pageNum > 0 ? prevPage : null}
@@ -209,6 +210,7 @@ function App() {
           }
           />
           <Route path='/sign-up' exact element={<SignUp isSignedIn={signedIn} setSignedIn={setSignedIn} usernames={usernames} location={location} signUp={signUp} />} />
+          
         </Routes>
       </Router>
     </>

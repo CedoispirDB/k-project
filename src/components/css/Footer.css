@@ -1,0 +1,32 @@
+.footer_container {
+    background: linear-gradient(135deg, rgb(8, 100, 109) 0%, rgb(135, 8, 75) 100%);
+    align-items: center;
+    display: flex;
+    padding: 10px 0px 10px 0px;
+    flex-direction: column;
+}
+
+.social_container {
+    height: fit-content;
+    width: fit-content;
+}
+
+.social_icon {
+    background-color: transparent;
+    color: var(--primary);
+    margin: 16px;
+    font-size: 20px;
+}
+
+.site_name {
+    color: var(--primary);
+    font-family: mild;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.social_icon:hover {
+    color: rgb(212, 13, 119);
+
+}

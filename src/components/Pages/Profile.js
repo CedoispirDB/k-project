@@ -1,8 +1,7 @@
 import React from 'react'
 import SignIn from '../SignIn'
 import ProfileHome from '../ProfileHome';
-
-
+import Footer from '../Footer';
 
 
 
@@ -16,7 +15,10 @@ function Profile({handleNameChange, handlePassChange, signIn, status, isSigned, 
         <>
     
            { isSigned ? 
-                <ProfileHome userData={userData} logout={logout}/>
+                <>
+                    <ProfileHome userData={userData} logout={logout}/>
+                    <Footer/>
+                </>
                 : 
                 <SignIn 
                 handleNameChange={handleNameChange} 
