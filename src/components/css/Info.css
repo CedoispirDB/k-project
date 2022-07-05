@@ -16,7 +16,7 @@
 
 .info_name {
     margin-top: 14px;
-    color: rgb(255, 107, 239);
+    color: var(--primary);
     font-weight: bold;
     font-family: mild;
 }
@@ -31,7 +31,7 @@
     height: fit-content;
     width: fit;
     margin-top: 51px;
-    color: rgb(255, 107, 239);
+    color: var(--primary);
     font-weight: bold;
     font-family: mild;
     font-size: 20px;
@@ -40,10 +40,22 @@
 
 .info_status {
     grid-column-start: 2;
-    color: rgb(255, 107, 239);
+    color: var(--primary);
     font-weight: bold;
     font-family: mild;
     font-size: 20px;
+}
+
+.info_status_text {
+    grid-column-start: 2;
+    color: var(--primary);
+    font-weight: bold;
+    font-family: mild;
+    font-size: 20px;
+    width: fit-content;
+    height: fit-content;
+    margin: 10px;
+  
 }
 
 .options_select {
@@ -181,6 +193,10 @@
     .ep_numbers {
         margin-left: 72px;
         margin-top: 8px;
+    }
+
+    .status_text {
+        margin-left: 20px;
     }
 
     

@@ -24,7 +24,6 @@ function UserSeries({ series, prevPage, nextPage, pageNum, category, isSignedIn 
     if(series !== undefined && mySeries.length < 4) {
         overflow = " user_series_container";
     }
-    console.log(overflow);
     
 
     return (

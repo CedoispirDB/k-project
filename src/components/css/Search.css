@@ -20,9 +20,14 @@
     font-family: mild;
     font-size: 17px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .search_bar:focus {
     transform: scale(1, 1.1);
     outline: solid 1px rgb(71, 52, 243);
+}
+
+.msg {
+    margin-top: 0px;
 }

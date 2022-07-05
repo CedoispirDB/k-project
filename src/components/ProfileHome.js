@@ -6,7 +6,7 @@ function ProfileHome({ userData, logout }) {
 
     let sum = 0;
 
-    console.log(userData["my_series"])
+    
     userData["my_series"].map(serie => {
         if (serie.status === "Watched") {
             sum += parseInt(serie.total_episodes);

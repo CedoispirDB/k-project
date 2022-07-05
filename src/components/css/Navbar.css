@@ -78,7 +78,23 @@
     display: none;
 }
 
+
+.location {
+    display: none;
+}
+
+
 @media screen and (max-width: 960px) {
+
+    .hide_name {
+        display: none;
+    }
+
+    .location {
+        display: block;
+    }
+
+    
     .NavbarItems {
         position: relative;
     }

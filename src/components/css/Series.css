@@ -152,7 +152,7 @@ h1 {
 
 .serie_link {
     text-decoration: none;
-    color: rgb(255, 107, 239);
+    color: var(--primary);
     box-shadow: -7px -5px 25px black;
     width: inherit;
     height: inherit;

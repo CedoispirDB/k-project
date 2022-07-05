@@ -72,9 +72,9 @@ function SignUp({ isSignedIn, setSignedIn, usernames, location, signUp}) {
                     {/* <label type="pwd" className='pass_label'>Password: </label> */}
                     <input 
                         type="password" 
-                        name="passInputUp user_input" 
+                        name="passInputUp" 
                         onChange={handlePassChange} 
-                        className='pass_field' 
+                        className='pass_field user_input' 
                         autoComplete='off' 
                         placeholder='Password'
                     /><br />

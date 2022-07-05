@@ -1,14 +1,40 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState, useEffect } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import './css/Navbar.css'
 
-export default function Navbar({ name, signedIn }) {
+export default function Navbar({ name, signedIn}) {
 
     const [click, setClick] = useState(false);
+    // const [pathName, setPathName] = useState();
+
+    // setPathName(useLocation().pathname);
+
+    // switch(pathName) {
+    //     case "/":
+    //         setPathName("K-Project");
+    //     case "/watched":
+    //         setPathName("Watched");
+    //     case "/watching":
+    //         setPathName("Watching");
+    //     case "/want-to-watch":
+    //         setPathName("Want to watch");
+    //     case "/profile":
+    //         if (signedIn) {
+    //             setPathName(name);
+    //         } else {
+    //             setPathName("Profile");
+    //         }
+    //     case "/search":
+    //         setPathName("Search");
+    //     case "/sign-up":
+    //         setPathName("Sign up");
+    // }
 
 
     const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false);
+    const closeMobileMenu = () => { 
+        setClick(false) 
+    };
 
     let title = "Profile";
 
@@ -25,6 +51,7 @@ export default function Navbar({ name, signedIn }) {
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                         K-Project
                     </Link>
+                
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>

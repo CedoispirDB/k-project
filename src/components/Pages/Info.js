@@ -6,6 +6,7 @@ function Info({ series, data, saveNewSeries, signedIn }) {
   const search = useLocation().search;
   const name = new URLSearchParams(search).get('name');
 
+
   const [click, setClick] = useState();
 
   let show = false;
@@ -218,7 +219,7 @@ function Info({ series, data, saveNewSeries, signedIn }) {
               <p className='hide_info'>Original release: {currentSerie["Original release"]}</p>
               <p className='hide_info'>{currentSerie["Running time"] !== undefined ? "Running time: " + currentSerie["Running time"] : ""}</p>
             </div>
-            <div className='info_status'>
+            <div className={!signedIn ? 'info_status_text' : 'info_status'}>
               {!signedIn ?
                 "Status: login to see it"
                 :

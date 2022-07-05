@@ -19,6 +19,8 @@ const LOCAL_STORAGE_KEY = "k_project"
 
 function App() {
 
+  console.log("render app")
+
   const [signedIn, setSignedIn] = useState(false);
   const [userData, setUserData] = useState();
   const [nameInput, setNameInput] = useState();
@@ -149,12 +151,14 @@ function App() {
     });
   }
 
+  function getLocation() {
+  }
 
 
   return (
     <>
       <Router>
-        <Navbar name={username} signedIn={signedIn} />
+        <Navbar name={username} signedIn={signedIn} getLocation={getLocation} />
         <Routes>
           <Route path='/' exact element={
             <Home series={series}
