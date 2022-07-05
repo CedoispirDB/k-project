@@ -1,5 +1,5 @@
-import {React, useState, useEffect } from 'react'
-import { Link, useLocation  } from 'react-router-dom'
+import { React, useState, useEffect } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import "../css/Info.css"
 
 function Info({ series, data, saveNewSeries, signedIn }) {
@@ -21,7 +21,7 @@ function Info({ series, data, saveNewSeries, signedIn }) {
 
 
   useEffect(() => {
-    
+
   }, [click]);
 
 
@@ -35,8 +35,9 @@ function Info({ series, data, saveNewSeries, signedIn }) {
       mySeries = userData["my_series"];
 
       if (mySeries !== undefined) {
-        list = createList()
-      
+        list = createList();
+        
+
 
 
         for (var i = 0; i < mySeries.length; i++) {
@@ -203,7 +204,7 @@ function Info({ series, data, saveNewSeries, signedIn }) {
     saveNewSeries(userData);
 
   }
- 
+
 
   return (
     <>
@@ -222,11 +223,11 @@ function Info({ series, data, saveNewSeries, signedIn }) {
             <div className={!signedIn ? 'info_status_text' : 'info_status'}>
               {!signedIn ?
                 <>
-                Status:
-                <Link to="/profile" className='status_login'>login to see</Link>
+                  Status:
+                  <Link to="/profile" className='status_login'>login to see</Link>
                 </>
                 :
-                
+
                 <form name='viewer_options' className='info_form' >
                   <p className='status_text'>Status:</p>
                   <select className='options_select' onChange={handleSelection} defaultValue={stat_num}>
@@ -236,9 +237,9 @@ function Info({ series, data, saveNewSeries, signedIn }) {
                     <option value='3'>Want to watch</option>
                   </select>
                   {show && <select className='ep_numbers options_select' onChange={saveCurrentEp}>
-                    { list.map((i) => {
-                        return <option key={i + 1} value={i}>{i}</option>
-                      })
+                    {list.map((i) => {
+                      return <option key={i + 1} value={i}>{i}</option>
+                    })
                     }
                   </select>
                   }
