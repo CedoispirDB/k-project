@@ -20,8 +20,6 @@ const LOCAL_STORAGE_KEY = "k_project"
 
 function App() {
 
-  console.log("render app")
-
   const [signedIn, setSignedIn] = useState(false);
   const [userData, setUserData] = useState();
   const [nameInput, setNameInput] = useState();
@@ -58,6 +56,7 @@ function App() {
   // Load user data
   useEffect(() => {
     if (username !== "init_mate" && !signedIn) {
+      console.log(username, pass)
       axios.get(`http://${location}:4800/userInfo?username=${username}&password=${pass}`)
         .then(res => {
           if (res.data[0].status === true) {
@@ -126,14 +125,28 @@ function App() {
     pass = passInput;
   }
 
-  function signUp(ni, pi) {
-    setBtnClicked(!btnClicked);
+  async function signUp(ni, pi) {
     username = ni;
     pass = pi;
-    axios.post(`http://${location}:4800/add`, {
+    await axios.post(`http://${location}:4800/add`, {
       username: ni,
       password: pi
-    })
+    });
+    axios.get(`http://${location}:4800/userInfo?username=${username}&password=${pass}`)
+        .then(res => {
+          if (res.data[0].status === true) {
+            setUserData(res.data[0]);
+            setSignedIn(true);
+            setStatus(false);
+            setLogedIn(true)
+
+          } else {
+            if (username !== "init_mate") {
+              setStatus(res.data[0].error_message);
+            }
+          }
+        })
+        .catch(error => console.error(`Error ${error}`));
   }
 
   function logout() {

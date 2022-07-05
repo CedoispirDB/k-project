@@ -164,10 +164,15 @@ label {
     margin: 16px;
 }
 
+.sign_in_wrapper {
+    height: fit-content;
+    padding: 20px;
+}
+
 @media only screen and (max-height:543px) {
    
     .sign_in_container {
-        top:89%;
+        /* top:89%; */
     }
 }
 
@@ -176,6 +181,9 @@ label {
     .sign_in_container {
         top:100%;
     }
-
+    
+    .container {
+        height: 122vh;
+    }
 
 }
