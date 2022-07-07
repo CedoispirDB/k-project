@@ -2,16 +2,23 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './css/Profile.css'
 
-function ProfileHome({ userData, logout }) {
+function ProfileHome({ userData }) {
+
 
     let sum = 0;
 
-    
-    userData["my_series"].map(serie => {
+
+    function logout() {
+        localStorage.clear();
+        window.location.reload(false);
+    }
+
+
+    userData["user_series"].L.map(serie => {
         if (serie.status === "Watched") {
-            sum += parseInt(serie.total_episodes);
+            sum += serie.M.total_ep.N;
         } else if (serie.status === "Watching") {
-            sum += parseInt(serie.currentEp);
+            sum += serie.M.currentEp.N;
         }
     });
 
@@ -20,15 +27,15 @@ function ProfileHome({ userData, logout }) {
             <div className='profile_wrapper'>
                 <div className='status box'>
                     <Link to="/watched" className='link'>
-                        {userData.number_of_watched} Watched
+                        {userData.watched.N} Watched
                     </Link>
                     <br />
                     <Link to="/watching" className='link'>
-                        {userData.number_of_watching} Watching
+                        {userData.watching.N} Watching
                     </Link>
                     <br />
                     <Link to="/want-to-watch" className='link'>
-                        {userData.number_of_want_to_watch} Want to Watch
+                        {userData.want_to_watch.N} Want to Watch
                     </Link>
                 </div>
                 <div className='total_episodes box'>
@@ -44,5 +51,6 @@ function ProfileHome({ userData, logout }) {
         </div>
     )
 }
+
 
 export default ProfileHome

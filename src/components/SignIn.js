@@ -1,17 +1,40 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './css/SignIn.css'
 import { Link, useNavigate } from 'react-router-dom';
 
-function SignIn({ handleNameChange, handlePassChange, signIn, status, signUp }) {
 
-    console.log(status);
+function SignIn({ setUserData, setSignedIn, setLocalStorage, getUserData }) {
+
     const navigate = useNavigate();
-    function handleSignIn() {
 
-        signIn();
-        if (status) {
-            navigate('/profile', { replace: true })
-        }
+    const [nameInput, setNameInput] = useState();
+    const [passInput, setPassInput] = useState();
+
+    let show = false;
+
+    // Handle user input for username
+    function handleNameChange(event) {
+        setNameInput(event.target.value);
+    }
+
+    // Handle user input for password
+    function handlePassChange(event) {
+        setPassInput(event.target.value);
+    }
+
+
+    async function handleSignIn() {
+        getUserData(nameInput, passInput).then(resp => {
+            console.log(resp.data.response.series_data.M)
+            if (resp !== undefined && Object.keys(resp.data).length > 0) {
+                setSignedIn(true);
+                setLocalStorage(nameInput, passInput, resp.data.response.series_data.M);
+                navigate('/profile', { replace: true });
+            } else {
+                show = true;
+            }
+        });
+    
 
     }
 
@@ -39,7 +62,7 @@ function SignIn({ handleNameChange, handlePassChange, signIn, status, signUp }) 
                             className='pass_field user_input'
                             placeholder='Password'
                         /><br />
-                        {status && <div className='error_msg'>{status}</div>}
+                        {show && <div className='error_msg'>Username or password incorrect</div>}
                         {/* <Link to="/profile" className='btn_link'> */}
                         <button onClick={handleSignIn} className='btn_sign'>Sign in</button>
                         {/* </Link> */}

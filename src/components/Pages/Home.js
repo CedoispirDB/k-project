@@ -1,7 +1,6 @@
 import React  from 'react'
 import Pagination from '../Pagination'
 import SeriesList from '../SeriesList'
-import "../css/fuck.css"
 
 function Home({ series, prevPage, nextPage, pageNum }) {
  

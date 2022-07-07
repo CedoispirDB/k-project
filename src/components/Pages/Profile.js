@@ -7,26 +7,26 @@ import Footer from '../Footer';
 
 
 
-function Profile({handleNameChange, handlePassChange, signIn, status, isSigned, userData, logout}) {
-    
-    
+function Profile({ setSignedIn, setUserData, setLocalStorage, getUserData, isSigned, userData }) {
+
+
 
     return (
         <>
-    
-           { isSigned ? 
+
+            {isSigned ?
                 <>
-                    <ProfileHome userData={userData} logout={logout}/>
-                    <Footer/>
+                    <ProfileHome userData={userData}/>
+                    <Footer />
                 </>
-                : 
-                <SignIn 
-                handleNameChange={handleNameChange} 
-                handlePassChange={handlePassChange}
-                signIn={signIn}
-                status={status}
+                :
+                <SignIn
+                    setUserData={setUserData}
+                    setSignedIn={setSignedIn}
+                    setLocalStorage={setLocalStorage}
+                    getUserData={getUserData}
                 />
-           }
+            }
         </>
     )
 }
