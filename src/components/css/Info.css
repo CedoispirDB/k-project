@@ -25,6 +25,7 @@
     width: 400px;
     height: 500px;
     grid-row: 1/3;
+    color: var(--primary);
 }
 
 .info_details {

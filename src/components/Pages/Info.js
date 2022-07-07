@@ -212,7 +212,7 @@ function Info({ series, data, saveNewSeries, signedIn }) {
         <div className='container_info'>
           <h1 className='info_name'>{currentSerie.name}</h1>
           <div className='info_container'>
-            <img src={currentSerie.imgUrl} alt='serie_img' className='info_img'></img>
+            <img src={currentSerie.imgUrl} alt={currentSerie.name + "_img"} className='info_img'></img>
             <div className='info_details'>
               <p>Genre: {currentSerie.Genre.replaceAll(" ", ",  ")}</p>
               <p className='hide_info'>Starring: {currentSerie.Starring} <br /></p>
