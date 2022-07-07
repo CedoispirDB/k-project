@@ -3,10 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Series({ name, imgUrl}) {
 
-    if(imgUrl.includes("localhost")) {
-        imgUrl = "http://192.168.0.120:4800/img";
-    }
-
+  
     return (
         <>
             <li className='cards__items' >

@@ -17,6 +17,8 @@ let username = "init_mate";
 let pass = "";
 
 const LOCAL_STORAGE_KEY = "k_project"
+const LOCAL_STORAGE_KEY_USER = "user_data"
+
 
 function App() {
 
@@ -41,11 +43,12 @@ function App() {
     if (username !== undefined && pass !== undefined) {
       let resp = await axios.get(`https://eu-1.lolo.co/nuMt2ZKatFKC2uCKN1VAjB/getUserData?username=${username}&password=${pass}`);
       // console.log(Object.keys(resp.).length)
-      if (resp !== undefined && Object.keys(resp.data).length > 0) {
-        console.log(resp)
-        setUserData(resp.data.response.series_data.M);
+      // if (resp !== undefined && Object.keys(resp.data).length > 0) {
+      //   console.log(resp)
+      //   setUserData(resp.data.response.series_data.M);
 
-      }
+
+      // }
       return resp;
 
     }
@@ -54,6 +57,8 @@ function App() {
   // Get data from local storage and load all usernames
   useEffect(() => {
     const stored = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY));
+
+    const user_stored = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY_USER));
 
     setSeries(savedData);
     async function getAllUsernames() {
@@ -64,15 +69,14 @@ function App() {
         })
     }
 
-    getAllUsernames();
+    // getAllUsernames();
 
 
-    if (stored !== null) {
+    if (stored !== null && user_stored !== null) {
       username = stored.username;
       pass = stored.pass;
       // console.log("here: "+ stored);
-
-      setUserData(stored.userData);
+      setUserData(user_stored.userData);
       setSignedIn(true);
 
 
@@ -125,9 +129,18 @@ function App() {
   // OnClick sign in function
 
   function setLocalStorage(username, pass, userData) {
-    localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify({ username: username, pass: pass, userData: userData }));
+    setUserData(userData);
+    localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify({ username: username, pass: pass }));
+    localStorage.setItem(LOCAL_STORAGE_KEY_USER, JSON.stringify({ userData: userData }));
+
   }
 
+
+  function setUserDataLocal(userData) {
+    setUserData(userData);
+    localStorage.setItem(LOCAL_STORAGE_KEY_USER, JSON.stringify({userData: userData }));
+
+  }
   // function apiRequest() {
   //   axios.get(`http://${location}:4800/userInfo?username=${username}&password=${pass}`)
   //     .then(res => {
@@ -186,7 +199,7 @@ function App() {
               nextPage={pageNum < 43 ? nextPage : null}
               pageNum={pageNum} />}
           />
-          {/* <Route path='/search' exact element={<Search series={series} />} />
+          {/* <Route path='/search' exact element={<Search series={series} />} />*/}
           <Route path='/watched' exact element={
             <UserSeries series={userData}
               prevPage={pageNum > 0 ? prevPage : null}
@@ -215,11 +228,10 @@ function App() {
             />}
           />
 
-          <Route path='/info' exact element={<Info series={series} data={userData} saveNewSeries={saveNewSeries} signedIn={signedIn} />} /> */}
+          <Route path='/info' exact element={<Info series={series} userData={userData} signedIn={signedIn} setUserDataLocal={setUserDataLocal}/>} />
           <Route path='/profile' exact element={
             <Profile
 
-              setUserData={setUserData}
               setSignedIn={setSignedIn}
               setLocalStorage={setLocalStorage}
               getUserData={getUserData}
@@ -230,7 +242,7 @@ function App() {
             />
           }
           />
-          {/* <Route path='/sign-up' exact element={<SignUp isSignedIn={signedIn} setSignedIn={setSignedIn} usernames={usernames} location={location} signUp={signUp} />} /> */}
+          <Route path='/sign-up' exact element={<SignUp isSignedIn={signedIn} setSignedIn={setSignedIn} usernames={usernames} setLocalStorage={setLocalStorage}/>} />
 
         </Routes>
       </Router>

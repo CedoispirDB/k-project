@@ -3,35 +3,57 @@ import './css/SignIn.css'
 import { Link, useNavigate } from 'react-router-dom';
 
 
-function SignIn({ setUserData, setSignedIn, setLocalStorage, getUserData }) {
+function SignIn({  setSignedIn, setLocalStorage, getUserData }) {
 
     const navigate = useNavigate();
 
     const [nameInput, setNameInput] = useState();
     const [passInput, setPassInput] = useState();
 
-    let show = false;
+    const [show, setShow] = useState(false);
+    const [msg, setMsg] = useState();
+
+
+
 
     // Handle user input for username
     function handleNameChange(event) {
+        setShow(false);
         setNameInput(event.target.value);
     }
 
     // Handle user input for password
     function handlePassChange(event) {
+        setShow(false);
         setPassInput(event.target.value);
     }
 
 
     async function handleSignIn() {
+
+        if(show) {
+            return;
+        }
+        if (nameInput === undefined) {
+            setShow(true);
+            setMsg("Please type an username")
+            return;
+        }
+
+        if (passInput === undefined) {
+            setShow(true);
+            setMsg("Please type a password")
+            return;
+        }
         getUserData(nameInput, passInput).then(resp => {
-            console.log(resp.data.response.series_data.M)
+            console.log("request")
             if (resp !== undefined && Object.keys(resp.data).length > 0) {
                 setSignedIn(true);
                 setLocalStorage(nameInput, passInput, resp.data.response.series_data.M);
                 navigate('/profile', { replace: true });
             } else {
-                show = true;
+                setShow(true);
+                setMsg("Username or password incorrect");   
             }
         });
     
@@ -62,7 +84,7 @@ function SignIn({ setUserData, setSignedIn, setLocalStorage, getUserData }) {
                             className='pass_field user_input'
                             placeholder='Password'
                         /><br />
-                        {show && <div className='error_msg'>Username or password incorrect</div>}
+                        {show && <div className='error_msg'>{msg}</div>}
                         {/* <Link to="/profile" className='btn_link'> */}
                         <button onClick={handleSignIn} className='btn_sign'>Sign in</button>
                         {/* </Link> */}

@@ -3,7 +3,7 @@ import '../css/SignIn.css'
 import { useNavigate } from 'react-router-dom';
 import axios from "axios"
 
-function SignUp({ isSignedIn, setSignedIn, usernames, location, signUp}) {
+function SignUp({ isSignedIn, setSignedIn, usernames, setLocalStorage}) {
 
     const navigate = useNavigate();
 
@@ -12,6 +12,28 @@ function SignUp({ isSignedIn, setSignedIn, usernames, location, signUp}) {
     const [show, setShow] = useState(false);
     const [msg, setMsg] = useState();
 
+    async function addNewUser(username, password) {
+        const res = await axios.post('https://eu-1.lolo.co/nuMt2ZKatFKC2uCKN1VAjB/addNewUser', {
+            username: username,
+            password: password,
+            series_data: {
+                user_series: { "L": [] },
+                watched: { "N": "0" },
+                watching: { "N": "0" },
+                want_to_watch: { "N": "0" }
+            }
+    
+        })
+        console.log(res);
+    }
+
+    async function saveUsername(username) {
+        const res = await axios.put('https://eu-1.lolo.co/nuMt2ZKatFKC2uCKN1VAjB/saveUsername', { 
+            username: {"L": [{"S": username} ]}
+        })
+    
+        console.log(res.data);
+    }
 
 
     function handleNameChange(event) {
@@ -36,14 +58,22 @@ function SignUp({ isSignedIn, setSignedIn, usernames, location, signUp}) {
             return;
         }
 
-        if (usernames.includes(nameInput)) {
-            setShow(true);
-            setMsg("Username already in use");
-            return
-        }
+        // if (usernames.includes(nameInput)) {
+        //     setShow(true);
+        //     setMsg("Username already in use");
+        //     return
+        // }
 
-        signUp(nameInput, passInput);
-
+        addNewUser(nameInput, passInput);
+        saveUsername(nameInput);
+        setSignedIn(true);
+        setLocalStorage(nameInput, passInput, {
+            user_series: {"L": []},
+            watched: {"N": 0},
+            watching: {"N": 0},
+            want_to_watch: {"N": 0}
+        });
+        
 
         navigate('/', { replace: true })
 
@@ -60,7 +90,6 @@ function SignUp({ isSignedIn, setSignedIn, usernames, location, signUp}) {
             <div className='container'>
                 <div className='sign_in_container'>
                     <h2 className='sign_in_title'>Sign Up</h2>
-                    {/* <label type="fname" className='username_label'>Username: </label> */}
                     <input 
                         type="text" 
                         name="usernameInputUp" 
@@ -69,7 +98,6 @@ function SignUp({ isSignedIn, setSignedIn, usernames, location, signUp}) {
                         autoComplete='off' 
                         placeholder='Username'
                     /><br/>
-                    {/* <label type="pwd" className='pass_label'>Password: </label> */}
                     <input 
                         type="password" 
                         name="passInputUp" 

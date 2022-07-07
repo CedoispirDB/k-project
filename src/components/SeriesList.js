@@ -18,7 +18,7 @@ function SeriesList({ series }) {
         return (
         
             series.map(serie => {
-                return <Series key={serie.id} name={serie.name} imgUrl={serie.imgUrl}></Series>
+                return <Series key={serie.M.id.S} name={serie.M.name.S} imgUrl={serie.M.imgUrl.S}></Series>
             })
 
         )

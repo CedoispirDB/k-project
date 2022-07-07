@@ -8,9 +8,9 @@ function UserSeries({ series, prevPage, nextPage, pageNum, category, isSignedIn 
     let mySeries = undefined;
 
 
+
     if (isSignedIn) {
-        mySeries = series["my_series"].filter(serie => serie.status === category);
-       
+        mySeries = series.user_series.L.filter(serie => serie.M.status.S === category);
     }
 
 
