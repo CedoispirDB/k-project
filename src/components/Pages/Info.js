@@ -10,17 +10,17 @@ function Info({ series, userData, signedIn, setUserDataLocal, username, pass }) 
   const search = location.search;
   const name = new URLSearchParams(search).get('name');
 
-  const [show, setShow] = useState(false);
+  const [click, setClick] = useState(false);
 
-
+  console.log(userData);
 
   if (series.length <= 0) {
     return;
   }
 
 
+  console.log("rendering", series)
 
-  // console.log(username, pass, series, userData);
 
   // current serie information
   const currrent_serie_obj = series.filter(serie => serie.M.name.S === name)[0].M;
@@ -33,10 +33,15 @@ function Info({ series, userData, signedIn, setUserDataLocal, username, pass }) 
   let watching = 0;
   let want_to_watch = 0;
 
+  const total_num_of_episodes = createList();;
+
+  let show = false;
+
   if (userData !== undefined) {
 
     // current user list of series 
     user_series_list = userData.user_series.L;
+
 
     console.log("userData: ", userData);
 
@@ -44,27 +49,43 @@ function Info({ series, userData, signedIn, setUserDataLocal, username, pass }) 
     watching = parseInt(userData.watching.S);
     want_to_watch = parseInt(userData.want_to_watch.S);
 
-    console.log("Qunatity of series: ", watched, watching, want_to_watch);
+    // console.log("Qunatity of series: ", watched, watching, want_to_watch);
 
     console.log("currrent_serie_obj: ", currrent_serie_obj);
     console.log("user_series_list: ", user_series_list);
 
     // user information for specific series
     current_serie_user_data = user_series_list.filter(serie => {
+      if (serie.M.length <= 0) {
+        return;
+      }
       if (serie.M.id.S === currrent_serie_obj.id.S) {
         return serie;
       }
       current_list_index++;
-    })[0].M;
+    });
 
-    console.log("current_serie_user_data: ", current_serie_user_data);
-    console.log("current_list_index: ", current_list_index);
+    if (current_serie_user_data.length <= 0) {
+      // current serie is not in the user's list
+      current_status = "0";
+    } else {
+      current_serie_user_data = current_serie_user_data[0].M;
+      current_status = current_serie_user_data.status.S;
 
-    current_status = current_serie_user_data.status.S;
+    }
 
-    if(current_status === "2" && !show) setShow(true);
+    console.log(current_serie_user_data)
 
-    console.log("current_status: ", current_status);
+    if (current_status === "2") {
+      show = true;
+    }
+
+    // console.log("current_serie_user_data: ", current_serie_user_data);
+    // console.log("current_list_index: ", current_list_index);
+
+
+
+    // console.log("current_status: ", current_status);
   }
 
 
@@ -93,46 +114,17 @@ function Info({ series, userData, signedIn, setUserDataLocal, username, pass }) 
     */
     let user_input = document.getElementsByClassName("options_select")[0].value;
 
-    let new_user_series_list = [...user_series_list];
+    console.log("user_series_list in handler before splice: ", user_series_list)
 
     let new_user_data_obj = {};
 
-    new_user_series_list.splice(current_list_index, 1);
+    user_series_list.splice(current_list_index, 1);
 
-    if (user_input === "0") {
-      // remove from list 
+    console.log("user_series_list in handler: ", user_series_list);
 
-      switch (current_status) {
-        case "1":
-          if (watched - 1 >= 0) watched--;
-          break;
-        case "2":
-          if (want_to_watch - 1 >= 0) watching--;
-          break;
-        case "3":
-          if (want_to_watch - 1 >= 0) want_to_watch--;
-          break;
-      }
+    let new_status;
 
-      current_status = "0";
-      if(show) setShow(false);
-    } else {
-      // Serie is already in my list, need to make changes
-      let new_status;
-      let temp_obj = current_serie_user_data;
-
-      switch (current_status) {
-        case "1":
-          if (watched - 1 >= 0) watched--;
-          break;
-        case "2":
-          if (watching - 1 >= 0) watching--;
-          break;
-        case "3":
-          if (want_to_watch - 1 >= 0) want_to_watch--;
-          break;
-      }
-
+    if (current_status === "0") {
       switch (user_input) {
         case "1":
           new_status = "1";
@@ -141,7 +133,7 @@ function Info({ series, userData, signedIn, setUserDataLocal, username, pass }) 
         case "2":
           new_status = "2";
           watching++;
-          if(!show) setShow(true);
+          show = true;
           break;
         case "3":
           new_status = "3";
@@ -149,22 +141,88 @@ function Info({ series, userData, signedIn, setUserDataLocal, username, pass }) 
           break;
       }
 
+      user_series_list.push({
+        "M": {
+          name: { "S": currrent_serie_obj.name.S },
+          status: { "S": new_status },
+          imgUrl: { "S": currrent_serie_obj.imgUrl.S },
+          rating: { "S": "0" },
+          currentEp: { "S": "0" },
+          id: { "S": currrent_serie_obj.id.S },
+          total_episodes: { "S": currrent_serie_obj["No. of episodes"].S }
+        }
+      })
+    } else {
 
-      current_status = new_status;
-      temp_obj.status = {"S": new_status};
-      new_user_series_list.splice(current_list_index, 0, temp_obj);
+      if (user_input === "0") {
+        // remove from list 
 
+        switch (current_status) {
+          case "1":
+            if (watched - 1 >= 0) watched--;
+            break;
+          case "2":
+            if (want_to_watch - 1 >= 0) watching--;
+            show = false;
+            break;
+          case "3":
+            if (want_to_watch - 1 >= 0) want_to_watch--;
+            break;
+        }
+
+        current_status = "0";
+      } else {
+        // Serie is already in my list, need to make changes
+        let temp_obj = current_serie_user_data;
+
+        console.log("here")
+        switch (current_status) {
+          case "1":
+            if (watched - 1 >= 0) watched--;
+            break;
+          case "2":
+            if (watching - 1 >= 0) watching--;
+            show = false;
+            break;
+          case "3":
+            if (want_to_watch - 1 >= 0) want_to_watch--;
+            break;
+        }
+
+        switch (user_input) {
+          case "1":
+            new_status = "1";
+            watched++;
+            break;
+          case "2":
+            new_status = "2";
+            watching++;
+            show = true;
+            break;
+          case "3":
+            new_status = "3";
+            want_to_watch++;
+            break;
+        }
+
+
+        current_status = new_status;
+        temp_obj.status = { "S": new_status };
+        user_series_list.splice(current_list_index, 0, { "M": temp_obj });
+
+      }
     }
 
-
     new_user_data_obj = {
-      user_series: { "L": new_user_series_list },
+      user_series: { "L": user_series_list },
       watched: { "S": watched + "" },
       watching: { "S": watching + "" },
       want_to_watch: { "S": want_to_watch + "" }
     }
 
     console.log(new_user_data_obj);
+    setUserDataLocal(new_user_data_obj);
+    userData = new_user_data_obj;
 
 
   }
@@ -184,24 +242,21 @@ function Info({ series, userData, signedIn, setUserDataLocal, username, pass }) 
   }
 
   function saveCurrentEp() {
-    //   let newCurrentEp = document.getElementsByClassName("ep_numbers options_select")[0].value
+    const episode_input = document.getElementsByClassName("ep_numbers options_select")[0].value;
 
+    console.log(userData)
+    let temp_list_of_series = userData.user_series.L;
+    let temp_user_data_obj = { ...userData };
 
-    //   for (var i = 0; i < mySeries.length; i++) {
-    //     if (currentSerie.id.S == mySeries[i].M.id.S) {
-    //       index = i;
-    //       break;
-    //     }
-    //   }
+    console.log(temp_list_of_series);
+    console.log(current_list_index);
+    temp_user_data_obj.user_series.L[current_list_index].M.current_episode = { "S": episode_input };
+    console.log(temp_user_data_obj);
+    
+    
 
-    //   mySeries[i].M.currentEp = { "S": newCurrentEp };
-
-    //   console.log(mySeries[i].M)
-
-
-    //   user_series["user_series"] = { "L": mySeries };
-
-    //   setUserDataLocal(user_series);
+    // console.log(temp_user_data_obj);
+    setUserDataLocal(temp_user_data_obj);
 
 
   }
@@ -238,10 +293,10 @@ function Info({ series, userData, signedIn, setUserDataLocal, username, pass }) 
                     <option value='3'>Want to watch</option>
                   </select>
                   {show && <select className='ep_numbers options_select' onChange={saveCurrentEp}>
-                    {/* {list.map((i) => {
+                    {total_num_of_episodes.map((i) => {
                       return <option key={i + 1} value={i}>{i}</option>
                     })
-                    } */}
+                    }
                   </select>
                   }
                 </form>

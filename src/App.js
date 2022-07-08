@@ -133,7 +133,7 @@ function App() {
               prevPage={pageNum > 0 ? prevPage : null}
               nextPage={pageNum < 43 ? nextPage : null}
               pageNum={pageNum}
-              category="Watched"
+              category="1"
               isSignedIn={signedIn}
               saveUserData={saveUserData} 
               save={save}
@@ -144,7 +144,7 @@ function App() {
               prevPage={pageNum > 0 ? prevPage : null}
               nextPage={pageNum < 43 ? nextPage : null}
               pageNum={pageNum}
-              category="Watching"
+              category="2"
               isSignedIn={signedIn}
               saveUserData={saveUserData} 
               save={save}
@@ -155,7 +155,7 @@ function App() {
               prevPage={pageNum > 0 ? prevPage : null}
               nextPage={pageNum < 43 ? nextPage : null}
               pageNum={pageNum}
-              category="Want to watch"
+              category="3"
               isSignedIn={signedIn}
               saveUserData={saveUserData} 
               save={save}

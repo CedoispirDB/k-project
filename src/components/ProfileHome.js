@@ -7,7 +7,6 @@ function ProfileHome({ userData }) {
 
     let sum = 0;
 
-    console.log(userData);
 
     function logout() {
         localStorage.clear();
@@ -17,10 +16,10 @@ function ProfileHome({ userData }) {
     console.log(userData["user_series"].L);
     userData["user_series"].L.map(serie => {
         console.log(serie.M)
-        if (serie.M.status.S === "Watched") {
+        if (serie.M.status.S === "1") {
             sum += parseInt(serie.M.total_episodes.S);
-        } else if (serie.M.status.S === "Watching") {
-            sum += parseInt(serie.M.currentEp.S);
+        } else if (serie.M.status.S === "2") {
+            sum += parseInt(serie.M.current_episode.S);
         }
     });
 
