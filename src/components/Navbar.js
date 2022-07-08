@@ -48,7 +48,7 @@ export default function Navbar({ name, signedIn}) {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                    <Link to="/"  className="navbar-logo" onClick={closeMobileMenu}>
                         K-Project
                     </Link>
                 

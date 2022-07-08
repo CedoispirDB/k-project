@@ -7,18 +7,20 @@ function ProfileHome({ userData }) {
 
     let sum = 0;
 
+    console.log(userData);
 
     function logout() {
         localStorage.clear();
         window.location.reload(false);
     }
 
-
+    console.log(userData["user_series"].L);
     userData["user_series"].L.map(serie => {
-        if (serie.status === "Watched") {
-            sum += serie.M.total_ep.N;
-        } else if (serie.status === "Watching") {
-            sum += serie.M.currentEp.N;
+        console.log(serie.M)
+        if (serie.M.status.S === "Watched") {
+            sum += parseInt(serie.M.total_episodes.S);
+        } else if (serie.M.status.S === "Watching") {
+            sum += parseInt(serie.M.currentEp.S);
         }
     });
 
@@ -27,15 +29,15 @@ function ProfileHome({ userData }) {
             <div className='profile_wrapper'>
                 <div className='status box'>
                     <Link to="/watched" className='link'>
-                        {userData.watched.N} Watched
+                        {userData.watched.S} Watched
                     </Link>
                     <br />
                     <Link to="/watching" className='link'>
-                        {userData.watching.N} Watching
+                        {userData.watching.S} Watching
                     </Link>
                     <br />
                     <Link to="/want-to-watch" className='link'>
-                        {userData.want_to_watch.N} Want to Watch
+                        {userData.want_to_watch.S} Want to Watch
                     </Link>
                 </div>
                 <div className='total_episodes box'>

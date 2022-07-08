@@ -7,7 +7,7 @@ import '../css/SignIn.css'
 function UserSeries({ series, prevPage, nextPage, pageNum, category, isSignedIn }) {
     let mySeries = undefined;
 
-
+ 
 
     if (isSignedIn) {
         mySeries = series.user_series.L.filter(serie => serie.M.status.S === category);
@@ -39,9 +39,9 @@ function UserSeries({ series, prevPage, nextPage, pageNum, category, isSignedIn 
                         {/* {navigate('/profile', { replace: false })} */}
                 </div>
                 :
-                <div className={`cards${overflow}`}>
-                    <div className='cards__container'>
-                        <div className='cards__wrapper big'>
+                <div className={`series${overflow}`}>
+                    <div className='series__container'>
+                        <div className='series__wrapper big'>
                             <ul className='grid_container' >
                                 <SeriesList series={mySeries} />
                             </ul>

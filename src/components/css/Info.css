@@ -19,6 +19,7 @@
     color: var(--primary);
     font-weight: bold;
     font-family: mild;
+    text-decoration: underline;
 }
 
 .info_img {

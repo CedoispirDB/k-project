@@ -6,10 +6,12 @@ import { useNavigate } from 'react-router-dom';
 
 function Search({ series }) {
 
+
     const navigate = useNavigate();
 
     const [searchInput, setSearchInput] = useState();
     const [show, setShow] = useState(false);
+
 
 
     function handleChange(event) {
@@ -21,7 +23,7 @@ function Search({ series }) {
         if (event.keyCode === 13) {
             let found = '';
             for(var i = 0; i < series.length; i++) {
-                let serie = series[i].name;
+                let serie = series[i].M.name.S;
                 if(serie === searchInput) {
                     found = serie;
                     break;

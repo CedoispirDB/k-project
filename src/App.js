@@ -26,15 +26,16 @@ function App() {
   const [userData, setUserData] = useState();
   const [usernames, setUsernames] = useState();
   const [loading, setLoading] = useState();
+  const [save, setSave] = useState(false);
 
-
+  
 
 
   // const [status, setStatus] = useState(false);
   // const [btnClicked, setBtnClicked] = useState(false);
 
   const [series, setSeries] = useState([]);
-  const [pageNum, setPageNum] = useState(0);
+  const [pageNum, setPageNum] = useState(false);
 
   // const [logedIn, setLogedIn] = useState(false);
 
@@ -42,13 +43,6 @@ function App() {
   async function getUserData(username, pass) {
     if (username !== undefined && pass !== undefined) {
       let resp = await axios.get(`https://eu-1.lolo.co/nuMt2ZKatFKC2uCKN1VAjB/getUserData?username=${username}&password=${pass}`);
-      // console.log(Object.keys(resp.).length)
-      // if (resp !== undefined && Object.keys(resp.data).length > 0) {
-      //   console.log(resp)
-      //   setUserData(resp.data.response.series_data.M);
-
-
-      // }
       return resp;
 
     }
@@ -61,6 +55,7 @@ function App() {
     const user_stored = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY_USER));
 
     setSeries(savedData);
+    
     async function getAllUsernames() {
       await axios.get('https://eu-1.lolo.co/nuMt2ZKatFKC2uCKN1VAjB/getAllUsernames')
         .then((res) => {
@@ -82,36 +77,6 @@ function App() {
 
     }
   }, []);
-
-  // Save data to local storage
-  // useEffect(() => {
-  //   if (username !== "init_mate") {
-  //     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify({ username: username, pass: pass }));
-  //   }
-  // }, [logedIn]);
-
-
-
-  // Load user data
-  // useEffect(() => {
-  //   if (username !== "init_mate" && !signedIn) {
-  //     // console.log(username, pass)
-  //     apiRequest();
-
-  //   }
-
-
-  // }, [btnClicked])
-
-  // Load all usernames in use
-  // useEffect(() => {
-  //   axios.get(`http://${location}:4800/usernames`)
-  //     .then(res => {
-  //       setUsernames(res.data);
-  //     })
-  //     .catch(error => console.error(`Error ${error}`));
-  // }, []);
-
 
   // Change page number foward
   const nextPage = () => {
@@ -141,51 +106,11 @@ function App() {
     localStorage.setItem(LOCAL_STORAGE_KEY_USER, JSON.stringify({userData: userData }));
 
   }
-  // function apiRequest() {
-  //   axios.get(`http://${location}:4800/userInfo?username=${username}&password=${pass}`)
-  //     .then(res => {
-  //       if (res.data[0].status === true) {
-  //         setUserData(res.data[0]);
-  //         setSignedIn(true);
-  //         setStatus(false);
-  //         setLogedIn(true)
-
-  //       } else {
-  //         if (username !== "init_mate") {
-  //           setStatus(res.data[0].error_message);
-  //         }
-  //       }
-  //     })
-  //     .catch(error => console.error(`Error ${error}`));
-  // }
-
-  // async function signUp(ni, pi) {
-  //   username = ni;
-  //   pass = pi;
-  //   // await axios.post(`http://${location}:4800/add`, {
-  //   //   username: ni,
-  //   //   password: pi
-  //   // });
-  //   // apiRequest();
-  // }
-
-  // function logout() {
-  //   localStorage.clear();
-  //   window.location.reload(false);
-  // }
-
-  // function saveNewSeries(newData) {
-  // delete newData["status"];
-  // axios.post(`http://${location}:4800/saveNewUserData`, {
-  //   data: {
-  //     username: username,
-  //     pass: pass,
-  //     newData
-  //   }
-  // });
-  // }
-
-
+ 
+  async function saveUserData() {
+    console.log("saving user data")
+    // setSave(false);
+  }
 
 
   return (
@@ -197,9 +122,12 @@ function App() {
             <Home series={series}
               prevPage={pageNum > 0 ? prevPage : null}
               nextPage={pageNum < 43 ? nextPage : null}
-              pageNum={pageNum} />}
+              pageNum={pageNum} 
+              save={save}
+              saveUserData={saveUserData}
+              />}
           />
-          {/* <Route path='/search' exact element={<Search series={series} />} />*/}
+          <Route path='/search' exact element={<Search series={series} saveUserData={saveUserData} save={save} />} />
           <Route path='/watched' exact element={
             <UserSeries series={userData}
               prevPage={pageNum > 0 ? prevPage : null}
@@ -207,6 +135,8 @@ function App() {
               pageNum={pageNum}
               category="Watched"
               isSignedIn={signedIn}
+              saveUserData={saveUserData} 
+              save={save}
             />}
           />
           <Route path='/watching' exact element={
@@ -216,6 +146,8 @@ function App() {
               pageNum={pageNum}
               category="Watching"
               isSignedIn={signedIn}
+              saveUserData={saveUserData} 
+              save={save}
             />}
           />
           <Route path='/want-to-watch' exact element={
@@ -225,10 +157,20 @@ function App() {
               pageNum={pageNum}
               category="Want to watch"
               isSignedIn={signedIn}
+              saveUserData={saveUserData} 
+              save={save}
             />}
           />
 
-          <Route path='/info' exact element={<Info series={series} userData={userData} signedIn={signedIn} setUserDataLocal={setUserDataLocal}/>} />
+          <Route path='/info' exact element={
+            <Info 
+              series={series} 
+              userData={userData} 
+              signedIn={signedIn} 
+              setUserDataLocal={setUserDataLocal}
+              username={username}
+              pass={pass}
+            />} />
           <Route path='/profile' exact element={
             <Profile
 
@@ -238,6 +180,8 @@ function App() {
 
               isSigned={signedIn}
               userData={userData}
+              saveUserData={saveUserData} 
+              save={save}
 
             />
           }

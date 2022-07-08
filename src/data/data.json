@@ -33,68 +33,6 @@
     {
         "M": {
             "name": {
-                "S": "A Bird That Doesn't Sing"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Revenge Melodrama Soap opera"
-            },
-            "Starring": {
-                "S": "Oh Hyun-kyung Hong Ah-reum Kang Ji-sub Kim Yu-seok Baek Seung-hee Ahn Jae-min"
-            },
-            "Running time": {
-                "S": "40 minutes"
-            },
-            "Original release": {
-                "S": "May 4 – October 22, 2015"
-            },
-            "id": {
-                "S": "2"
-            },
-            "rating": {
-                "S": "2"
-            },
-            "No. of episodes": {
-                "S": "100"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "A Daughter Just Like You"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama"
-            },
-            "Starring": {
-                "S": "Lee Soo-kyung Kang Kyung-joon Kim Hye-ok Kil Yong-woo"
-            },
-            "Running time": {
-                "S": "35 minutes Mondays to Fridays at 20:55 (KST)"
-            },
-            "Original release": {
-                "S": "May 18 – November 16, 2015"
-            },
-            "id": {
-                "S": "3"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "120"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "A Gentleman's Dignity"
             },
             "imgUrl": {
@@ -151,37 +89,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "A Happy Woman"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance, Drama"
-            },
-            "Starring": {
-                "S": "Yoon Jung-hee Kim Suk-hoon Jung Gyu-woon"
-            },
-            "Running time": {
-                "S": "Saturdays and Sundays at 19:55"
-            },
-            "Original release": {
-                "S": "January 6 – July 21, 2007"
-            },
-            "id": {
-                "S": "6"
-            },
-            "rating": {
-                "S": "2"
-            },
-            "No. of episodes": {
-                "S": "58"
             }
         }
     },
@@ -365,34 +272,6 @@
     {
         "M": {
             "name": {
-                "S": "A Model Family"
-            },
-            "imgUrl": {
-                "S": "http://localhost:4800/img"
-            },
-            "Genre": {
-                "S": "Crime Drama Thrillers"
-            },
-            "Starring": {
-                "S": "Jung Woo Park Hee-soon Yoon Jin-seo Park Ji-yeon"
-            },
-            "Original release": {
-                "S": "2022"
-            },
-            "id": {
-                "S": "13"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "A New Leaf"
             },
             "imgUrl": {
@@ -570,37 +449,6 @@
             },
             "No. of episodes": {
                 "S": "8"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "A Tale of Two Sisters"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama, Romance, Family"
-            },
-            "Starring": {
-                "S": "Park Se-young Lee Hae-in Yoo Gun Park Jae-jung"
-            },
-            "Running time": {
-                "S": "30 minutes"
-            },
-            "Original release": {
-                "S": "29 April – 1 November 2013"
-            },
-            "id": {
-                "S": "20"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "135"
             }
         }
     },
@@ -849,34 +697,6 @@
     {
         "M": {
             "name": {
-                "S": "Adamas"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Fantasy"
-            },
-            "Starring": {
-                "S": "Ji Sung Seo Ji-hye Lee Soo-kyung"
-            },
-            "Original release": {
-                "S": "July 27, 2022"
-            },
-            "id": {
-                "S": "29"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Adult Trainee"
             },
             "imgUrl": {
@@ -905,37 +725,6 @@
     {
         "M": {
             "name": {
-                "S": "Aeja's Older Sister, Minja"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Family Romance"
-            },
-            "Starring": {
-                "S": "Cha Hwa-yeon Lee Eung-kyung"
-            },
-            "Running time": {
-                "S": "30 minutes Mondays to Fridays at 19:20 (KST)"
-            },
-            "Original release": {
-                "S": "April 21 – October 31, 2008"
-            },
-            "id": {
-                "S": "31"
-            },
-            "rating": {
-                "S": "6"
-            },
-            "No. of episodes": {
-                "S": "140"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Again My Life"
             },
             "imgUrl": {
@@ -958,65 +747,6 @@
             },
             "No. of episodes": {
                 "S": "16 (list of episodes)"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Age of Innocence"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Go Soo Kim Min-hee Park Jung-chul"
-            },
-            "Running time": {
-                "S": "70 minutes Wednesdays and Thursdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "July 3 – August 22, 2002"
-            },
-            "id": {
-                "S": "33"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Age of Warriors"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Historical"
-            },
-            "Starring": {
-                "S": "Seo In-seok Kim Heung-ki Park Yong-woo Lee Duk-hwa Kim Kap-soo"
-            },
-            "Running time": {
-                "S": "50–60 minutes Saturdays and Sundays at 21:45 (KST)"
-            },
-            "Original release": {
-                "S": "February 8, 2003 – August 15, 2004"
-            },
-            "id": {
-                "S": "34"
-            },
-            "rating": {
-                "S": "2"
-            },
-            "No. of episodes": {
-                "S": "158"
             }
         }
     },
@@ -1488,37 +1218,6 @@
     {
         "M": {
             "name": {
-                "S": "Angel's Choice"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Melodrama Romance Family"
-            },
-            "Starring": {
-                "S": "Choi Jung-yoon Yoon Hee-seok Jung Sung-woon "
-            },
-            "Running time": {
-                "S": "40 minutes"
-            },
-            "Original release": {
-                "S": "April 2 – October 12, 2012"
-            },
-            "id": {
-                "S": "50"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "140"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Angel's Last Mission: Love"
             },
             "imgUrl": {
@@ -1643,37 +1342,6 @@
     {
         "M": {
             "name": {
-                "S": "Another Peaceful Day of Second-Hand Items"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance"
-            },
-            "Starring": {
-                "S": "Hana Lee Ka-eun Kang Tae-joo"
-            },
-            "Running time": {
-                "S": "10 - 15 minutes"
-            },
-            "Original release": {
-                "S": "January 21, 2021 - February 25, 2021"
-            },
-            "id": {
-                "S": "55"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "6 Episodes"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Apgujeong Midnight Sun"
             },
             "imgUrl": {
@@ -1699,34 +1367,6 @@
             },
             "No. of episodes": {
                 "S": "149 (South Korea) 112 (Vietnam)"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "April Kiss"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/April_Kiss_poster.jpg/250px-April_Kiss_poster.jpg"
-            },
-            "Starring": {
-                "S": "Soo Ae Jo Han-sun Lee Jung-jin So Yi-hyun"
-            },
-            "Running time": {
-                "S": "Wednesday & Thursday 21:50"
-            },
-            "Original release": {
-                "S": "April 21 – July 8, 2004"
-            },
-            "id": {
-                "S": "57"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "24"
             }
         }
     },
@@ -1885,62 +1525,6 @@
     {
         "M": {
             "name": {
-                "S": "Ask the Stars"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Sci-Fi Romance Comedy"
-            },
-            "Starring": {
-                "S": "Lee Min-ho Gong Hyo-jin"
-            },
-            "Original release": {
-                "S": "2023"
-            },
-            "id": {
-                "S": "63"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Asphalt Man"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Lee Byung-hun Choi Jin-sil Jung Woo-sung Lee Young-ae"
-            },
-            "Running time": {
-                "S": "Wednesdays and Thursdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "May 17 – July 6, 1995"
-            },
-            "id": {
-                "S": "64"
-            },
-            "rating": {
-                "S": "2"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Assembly"
             },
             "imgUrl": {
@@ -2084,31 +1668,6 @@
             },
             "No. of episodes": {
                 "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Autumn Shower"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Oh Ji-ho Kim So-yeon Jung Ryeo-won Lee Chun-hee"
-            },
-            "Original release": {
-                "S": "September 21 – November 10, 2005"
-            },
-            "id": {
-                "S": "70"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "16"
             }
         }
     },
@@ -2667,34 +2226,6 @@
     {
         "M": {
             "name": {
-                "S": "Banjun Drama"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama, comedy, romance"
-            },
-            "Running time": {
-                "S": "Approx. 45 minutes per episode"
-            },
-            "Original release": {
-                "S": "August 8, 2004 – April 23, 2006"
-            },
-            "id": {
-                "S": "89"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "87"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Basketball"
             },
             "imgUrl": {
@@ -2813,37 +2344,6 @@
     {
         "M": {
             "name": {
-                "S": "Be Strong, Geum-soon!"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama Romance Comedy Family"
-            },
-            "Starring": {
-                "S": "Han Hye-jin Kang Ji-hwan"
-            },
-            "Running time": {
-                "S": "30 minutes"
-            },
-            "Original release": {
-                "S": "February 14 – September 30, 2005"
-            },
-            "id": {
-                "S": "94"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "163"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Beating Again"
             },
             "imgUrl": {
@@ -2869,34 +2369,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Beating Heart"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Beating_Heart_DVD_cover.jpg/250px-Beating_Heart_DVD_cover.jpg"
-            },
-            "Starring": {
-                "S": "Bae Doona Bae Jong-ok Kim Chang-wan Go Ah-sung"
-            },
-            "Running time": {
-                "S": "50 minutes"
-            },
-            "Original release": {
-                "S": "April 2 – May 8, 2005"
-            },
-            "id": {
-                "S": "96"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "12"
             }
         }
     },
@@ -3145,37 +2617,6 @@
     {
         "M": {
             "name": {
-                "S": "Becoming Witch"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/9/96/Becoming_Witch_poster.jpg"
-            },
-            "Genre": {
-                "S": "Black comedy Mystery"
-            },
-            "Starring": {
-                "S": "Lee Yu-ri Lee Min-young Yoon So-yi"
-            },
-            "Running time": {
-                "S": "70 minutes"
-            },
-            "Original release": {
-                "S": "June 25, 2022"
-            },
-            "id": {
-                "S": "105"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Beethoven Virus"
             },
             "imgUrl": {
@@ -3387,34 +2828,6 @@
     {
         "M": {
             "name": {
-                "S": "Big Issue"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Big_Issue_%28TV_series%29.jpg/250px-Big_Issue_%28TV_series%29.jpg"
-            },
-            "Starring": {
-                "S": "Joo Jin-mo Han Ye-seul Shin So-yul"
-            },
-            "Running time": {
-                "S": "35 minutes"
-            },
-            "Original release": {
-                "S": "March 6 – May 2, 2019"
-            },
-            "id": {
-                "S": "113"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "32"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Big Man"
             },
             "imgUrl": {
@@ -3446,34 +2859,6 @@
     {
         "M": {
             "name": {
-                "S": "Big Mouse"
-            },
-            "imgUrl": {
-                "S": "http://localhost:4800/img"
-            },
-            "Genre": {
-                "S": "Hardboiled"
-            },
-            "Starring": {
-                "S": "Lee Jong-suk Im Yoon-ah"
-            },
-            "Original release": {
-                "S": "July 29, 2022"
-            },
-            "id": {
-                "S": "115"
-            },
-            "rating": {
-                "S": "2"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Big Thing"
             },
             "imgUrl": {
@@ -3499,37 +2884,6 @@
             },
             "No. of episodes": {
                 "S": "24"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Billie Jean, Look at Me"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romantic comedy"
-            },
-            "Starring": {
-                "S": "Lee Ji-hoon Park Hee-von"
-            },
-            "Running time": {
-                "S": "Mondays and Tuesdays at 23:55 (KST)"
-            },
-            "Original release": {
-                "S": "December 26, 2006 – February 6, 2007"
-            },
-            "id": {
-                "S": "117"
-            },
-            "rating": {
-                "S": "2"
-            },
-            "No. of episodes": {
-                "S": "26"
             }
         }
     },
@@ -3626,37 +2980,6 @@
     {
         "M": {
             "name": {
-                "S": "Birthday Letter"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Period drama War Action Thriller Romance"
-            },
-            "Starring": {
-                "S": "Song Geon-hee Jo Soo-min Jeon Moo-song Jung Young-sook "
-            },
-            "Running time": {
-                "S": "32 minutes"
-            },
-            "Original release": {
-                "S": "September 11 – September 12, 2019"
-            },
-            "id": {
-                "S": "121"
-            },
-            "rating": {
-                "S": "2"
-            },
-            "No. of episodes": {
-                "S": "4"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Bitter Sweet Life"
             },
             "imgUrl": {
@@ -3679,31 +3002,6 @@
             },
             "No. of episodes": {
                 "S": "24"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Bizarre Bunch"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Jung Joon Go Joo-won Kim Ah-joong Kim Sung-eun"
-            },
-            "Original release": {
-                "S": "September 26, 2005 – May 19, 2006"
-            },
-            "id": {
-                "S": "123"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "170"
             }
         }
     },
@@ -3825,62 +3123,6 @@
     {
         "M": {
             "name": {
-                "S": "Blessing of the Sea"
-            },
-            "imgUrl": {
-                "S": "http://localhost:4800/img"
-            },
-            "Genre": {
-                "S": "Melodrama"
-            },
-            "Starring": {
-                "S": "Lee So-yeon Jae Hee Jo An"
-            },
-            "Running time": {
-                "S": "35 minutes"
-            },
-            "Original release": {
-                "S": "January 14 – July 12, 2019"
-            },
-            "id": {
-                "S": "128"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "121"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Blind"
-            },
-            "imgUrl": {
-                "S": "http://localhost:4800/img"
-            },
-            "Starring": {
-                "S": "Ok Taec-yeon Ha Seok-jin Jeong Eun-ji"
-            },
-            "Original release": {
-                "S": "2022"
-            },
-            "id": {
-                "S": "129"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Blood"
             },
             "imgUrl": {
@@ -3965,34 +3207,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Bloody Romance"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance"
-            },
-            "Starring": {
-                "S": "Nam Gyu-ri Kim Min-seok Song Jae-rim"
-            },
-            "Original release": {
-                "S": "2022"
-            },
-            "id": {
-                "S": "133"
-            },
-            "rating": {
-                "S": "8"
-            },
-            "No. of episodes": {
-                "S": "undefined"
             }
         }
     },
@@ -4418,37 +3632,6 @@
     {
         "M": {
             "name": {
-                "S": "Bride of the Sun"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Melodrama Revenge Romance"
-            },
-            "Starring": {
-                "S": "Jang Shin-young Jung Eun-woo Han Jin-hee"
-            },
-            "Running time": {
-                "S": "Mondays to Fridays at 08:40 (KST)"
-            },
-            "Original release": {
-                "S": "24 October 2011 – 30 March 2012"
-            },
-            "id": {
-                "S": "148"
-            },
-            "rating": {
-                "S": "9"
-            },
-            "No. of episodes": {
-                "S": "112"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Brilliant Heritage"
             },
             "imgUrl": {
@@ -4474,31 +3657,6 @@
             },
             "No. of episodes": {
                 "S": "122"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Brilliant Legacy"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Shining_Inheritance.jpg/250px-Shining_Inheritance.jpg"
-            },
-            "Starring": {
-                "S": "Han Hyo-joo Lee Seung-gi Bae Soo-bin Moon Chae-won"
-            },
-            "Original release": {
-                "S": "April 25 – July 26, 2009"
-            },
-            "id": {
-                "S": "150"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "28"
             }
         }
     },
@@ -4853,34 +4011,6 @@
             },
             "rating": {
                 "S": "1"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Cats on the Roof"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Cat_on_the_Roof_TV_poster.jpeg/250px-Cat_on_the_Roof_TV_poster.jpeg"
-            },
-            "Starring": {
-                "S": "Kim Rae-won Jung Da-bin"
-            },
-            "Running time": {
-                "S": "50 minutes"
-            },
-            "Original release": {
-                "S": "June 2 – July 22, 2003"
-            },
-            "id": {
-                "S": "163"
-            },
-            "rating": {
-                "S": "9"
             },
             "No. of episodes": {
                 "S": "16"
@@ -5365,34 +4495,6 @@
     {
         "M": {
             "name": {
-                "S": "Chunja's Special Day"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Seo Ji-hye Go Doo-shim Joo Sang-wook Wang Bit-na Kim Kibum"
-            },
-            "Running time": {
-                "S": "40 minutes"
-            },
-            "Original release": {
-                "S": "May 19 – November 13, 2008"
-            },
-            "id": {
-                "S": "180"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "111"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Cinderella Man"
             },
             "imgUrl": {
@@ -5508,31 +4610,6 @@
             },
             "No. of episodes": {
                 "S": "12"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "City Conquest"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance Action Revenge"
-            },
-            "Starring": {
-                "S": "Kim Hyun-joong Jeong Yu-mi"
-            },
-            "id": {
-                "S": "185"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "undefined"
             }
         }
     },
@@ -5660,87 +4737,6 @@
     {
         "M": {
             "name": {
-                "S": "Cleaning Up"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Cleaning_Up.jpg/250px-Cleaning_Up.jpg"
-            },
-            "Starring": {
-                "S": "Yum Jung-ah Jeon So-min Kim Jae-hwa Lee Moo-saeng Na In-woo"
-            },
-            "Original release": {
-                "S": "June 4, 2022 – present"
-            },
-            "id": {
-                "S": "190"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "6 (as of June 19, 2022)"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Cloud Stairs"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Shin Dong-wook Han Ji-hye"
-            },
-            "Running time": {
-                "S": "70 minutes Mondays and Tuesdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "September 18 – November 7, 2006"
-            },
-            "id": {
-                "S": "191"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Coffee House"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Coffeehouse1.jpg/250px-Coffeehouse1.jpg"
-            },
-            "Starring": {
-                "S": "Kang Ji-hwan Park Si-yeon Ham Eun-jung Jung Woong-in"
-            },
-            "Running time": {
-                "S": "Mondays and Tuesdays at 20:45 (KST)"
-            },
-            "Original release": {
-                "S": "17 May – 27 July 2010"
-            },
-            "id": {
-                "S": "192"
-            },
-            "rating": {
-                "S": "2"
-            },
-            "No. of episodes": {
-                "S": "18"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Coffee Prince"
             },
             "imgUrl": {
@@ -5825,28 +4821,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Coma"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Coma_%28TV_series%29_promotional_poster.jpg/250px-Coma_%28TV_series%29_promotional_poster.jpg"
-            },
-            "Starring": {
-                "S": "Im Won-hee Lee Jung-heon Lee Se-eun Lee Young-jin Myung Ji-yeon"
-            },
-            "id": {
-                "S": "196"
-            },
-            "rating": {
-                "S": "9"
-            },
-            "No. of episodes": {
-                "S": "undefined"
             }
         }
     },
@@ -6281,31 +5255,6 @@
     {
         "M": {
             "name": {
-                "S": "Curtain Call"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Kang Ha-neul Ha Ji-won"
-            },
-            "Original release": {
-                "S": "2022"
-            },
-            "id": {
-                "S": "211"
-            },
-            "rating": {
-                "S": "8"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "D-Day"
             },
             "imgUrl": {
@@ -6455,34 +5404,6 @@
             },
             "No. of episodes": {
                 "S": "134"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Daemyeong"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Historical"
-            },
-            "Starring": {
-                "S": "Kim Dong-hoon Kim Heung-ki Seo Young-jin Won Mi-kyung Kim Sung-won Baek Il-sub"
-            },
-            "Original release": {
-                "S": "January 5 – December 28, 1981"
-            },
-            "id": {
-                "S": "217"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "52 (50 mains and 2 specials) (list of episodes)"
             }
         }
     },
@@ -6734,65 +5655,6 @@
     {
         "M": {
             "name": {
-                "S": "Dear Archimedes"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Web series Suspense Romantic"
-            },
-            "Starring": {
-                "S": "Oh Se-hun Xu Ling Yue Yang Ye Ming Wang Zi Xuan"
-            },
-            "Original release": {
-                "S": "-"
-            },
-            "id": {
-                "S": "226"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Dear Heaven"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Melodrama, Romance"
-            },
-            "Starring": {
-                "S": "Yoon Jung-hee Lee Tae-gon Cho Yeon-woo Lee Soo-kyung Wang Bit-na"
-            },
-            "Running time": {
-                "S": "60 minutes on Saturdays and Sundays at 20:45 (KST)"
-            },
-            "Original release": {
-                "S": "10 September 2005 – 2 July 2006"
-            },
-            "id": {
-                "S": "227"
-            },
-            "rating": {
-                "S": "9"
-            },
-            "No. of episodes": {
-                "S": "85"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Dear My Friends"
             },
             "imgUrl": {
@@ -6973,37 +5835,6 @@
     {
         "M": {
             "name": {
-                "S": "Delivery"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Delivery_%28web_series%29.jpeg/250px-Delivery_%28web_series%29.jpeg"
-            },
-            "Genre": {
-                "S": "Action-comedy"
-            },
-            "Starring": {
-                "S": "Cho Mi-yeon Lee Tae-vin"
-            },
-            "Running time": {
-                "S": "80 minutes"
-            },
-            "Original release": {
-                "S": "November 12, 2021"
-            },
-            "id": {
-                "S": "234"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Descendants of the Sun"
             },
             "imgUrl": {
@@ -7178,28 +6009,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Did We Really Love?"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Did_We_Really_Love_DVD_cover.jpeg/250px-Did_We_Really_Love_DVD_cover.jpeg"
-            },
-            "Original release": {
-                "S": "January 27 – May 25, 1999"
-            },
-            "id": {
-                "S": "241"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "44"
             }
         }
     },
@@ -7454,25 +6263,6 @@
     {
         "M": {
             "name": {
-                "S": "Doctor Doctor"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "id": {
-                "S": "250"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Doctor John"
             },
             "imgUrl": {
@@ -7656,34 +6446,6 @@
     {
         "M": {
             "name": {
-                "S": "Don't Cry My Love"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Family Romance Drama"
-            },
-            "Starring": {
-                "S": "Lee Yoo-ri Lee Jung-jin Oh Seung-hyun Lee Sang-yoon"
-            },
-            "Original release": {
-                "S": "November 17, 2008 – May 22, 2009"
-            },
-            "id": {
-                "S": "257"
-            },
-            "rating": {
-                "S": "2"
-            },
-            "No. of episodes": {
-                "S": "132"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Don't Dare to Dream"
             },
             "imgUrl": {
@@ -7808,121 +6570,6 @@
     {
         "M": {
             "name": {
-                "S": "Drama City"
-            },
-            "imgUrl": {
-                "S": "http://localhost:4800/img"
-            },
-            "Genre": {
-                "S": "Drama"
-            },
-            "Starring": {
-                "S": "Various actors"
-            },
-            "Running time": {
-                "S": "Sunday 22:00 (until 2005-May-01), Saturday 23:15 (since 2005-May-07)"
-            },
-            "Original release": {
-                "S": "November 30, 1984 – March 29, 2008"
-            },
-            "id": {
-                "S": "262"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Drama City: What Should I Do?"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama"
-            },
-            "Starring": {
-                "S": "Lee Joon-gi Lee Yeong Jung Lee Eun Hye Seo Nam Yeong"
-            },
-            "Running time": {
-                "S": "60 minutes"
-            },
-            "Original release": {
-                "S": "November 7, 2004"
-            },
-            "id": {
-                "S": "263"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "No. 234"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Drama Special Series"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama"
-            },
-            "Original release": {
-                "S": "December 11, 2010 – July 10, 2013"
-            },
-            "id": {
-                "S": "264"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "70"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Just an Ordinary Love Story"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama romance"
-            },
-            "Starring": {
-                "S": "Yoo Da-in Yeon Woo-jin"
-            },
-            "Original release": {
-                "S": "February 29 – March 8, 2012"
-            },
-            "id": {
-                "S": "265"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "4"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Puberty Medley"
             },
             "imgUrl": {
@@ -7942,34 +6589,6 @@
             },
             "rating": {
                 "S": "5"
-            },
-            "No. of episodes": {
-                "S": "4"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Rock, Rock, Rock"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "No Min-woo Hong Ah-reum"
-            },
-            "Running time": {
-                "S": "60 minutes"
-            },
-            "Original release": {
-                "S": "December 11 – December 18, 2010"
-            },
-            "id": {
-                "S": "267"
-            },
-            "rating": {
-                "S": "6"
             },
             "No. of episodes": {
                 "S": "4"
@@ -8131,34 +6750,6 @@
     {
         "M": {
             "name": {
-                "S": "Dream of the Emperor"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/The_King%27s_Dream_%28%EB%8C%80%EC%99%95%EC%9D%98_%EA%BF%88%29_-_poster.jpg/250px-The_King%27s_Dream_%28%EB%8C%80%EC%99%95%EC%9D%98_%EA%BF%88%29_-_poster.jpg"
-            },
-            "Starring": {
-                "S": "Choi Soo-jong Kim Yu-seok Park Joo-mi Hong Eun-hee Lee Young-ah Jang Dong-jik"
-            },
-            "Running time": {
-                "S": "Saturdays and Sundays at 21:40 (KST)"
-            },
-            "Original release": {
-                "S": "September 8, 2012 – June 9, 2013"
-            },
-            "id": {
-                "S": "273"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "70 + 5 specials"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Drinking Solo"
             },
             "imgUrl": {
@@ -8181,59 +6772,6 @@
             },
             "rating": {
                 "S": "7"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Dr. Brain"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Apple_TV%2B_Dr._Brain_poster.jpg/220px-Apple_TV%2B_Dr._Brain_poster.jpg"
-            },
-            "Original release": {
-                "S": "November 4, 2021"
-            },
-            "id": {
-                "S": "275"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "6"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Dr. Champ"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance Sports"
-            },
-            "Starring": {
-                "S": "Kim So-yeon Uhm Tae-woong Jung Gyu-woon Cha Ye-ryun"
-            },
-            "Running time": {
-                "S": "Monday & Tuesday 20:55 (KST)"
-            },
-            "Original release": {
-                "S": "27 September – 16 November 2010"
-            },
-            "id": {
-                "S": "276"
-            },
-            "rating": {
-                "S": "3"
             },
             "No. of episodes": {
                 "S": "16"
@@ -8575,34 +7113,6 @@
     {
         "M": {
             "name": {
-                "S": "Eighteen, Twenty-Nine"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/f/f2/Yeolyeodol_Seumulmahop_%28logo%29.png"
-            },
-            "Starring": {
-                "S": "Park Sun-young Ryu Soo-young"
-            },
-            "Running time": {
-                "S": "Mondays and Tuesdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "March 7 – April 26, 2005"
-            },
-            "id": {
-                "S": "288"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Emergency Couple"
             },
             "imgUrl": {
@@ -8684,34 +7194,6 @@
             },
             "No. of episodes": {
                 "S": "24"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Empress Cheonchu"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Iron_Empress.jpg/250px-Iron_Empress.jpg"
-            },
-            "Starring": {
-                "S": "Chae Shi-ra Kim Suk-hoon Choi Jae-sung Lee Deok-hwa Kim Ho-jin Shin Ae"
-            },
-            "Running time": {
-                "S": "Saturdays and Sundays at 21:30"
-            },
-            "Original release": {
-                "S": "January 3 – September 27, 2009"
-            },
-            "id": {
-                "S": "292"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "78"
             }
         }
     },
@@ -8864,28 +7346,6 @@
             },
             "No. of episodes": {
                 "S": "37"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Endless Love"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Original release": {
-                "S": "September 18, 2000 – May 16, 2006"
-            },
-            "id": {
-                "S": "298"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "76"
             }
         }
     },
@@ -9109,25 +7569,6 @@
     {
         "M": {
             "name": {
-                "S": "Erexion"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "id": {
-                "S": "306"
-            },
-            "rating": {
-                "S": "9"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Eve"
             },
             "imgUrl": {
@@ -9215,37 +7656,6 @@
             },
             "No. of episodes": {
                 "S": "120"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Exit"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Science fiction Melodrama"
-            },
-            "Starring": {
-                "S": "Choi Tae-joon Woo Hyun Bae Hae-sun"
-            },
-            "Running time": {
-                "S": "35 minutes"
-            },
-            "Original release": {
-                "S": "April 30 – May 1, 2018"
-            },
-            "id": {
-                "S": "310"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "4"
             }
         }
     },
@@ -9488,37 +7898,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Family"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Sitcom Family Comedy Romance"
-            },
-            "Starring": {
-                "S": "Hwang Shin-hye Ahn Suk-hwan Park Ji-yoon Park Hee-von"
-            },
-            "Running time": {
-                "S": "Mondays to Fridays at 19:45 (KST)"
-            },
-            "Original release": {
-                "S": "13 August 2012 – 6 February 2013"
-            },
-            "id": {
-                "S": "319"
-            },
-            "rating": {
-                "S": "8"
-            },
-            "No. of episodes": {
-                "S": "120"
             }
         }
     },
@@ -9919,25 +8298,6 @@
                 "S": "Fireworks"
             },
             "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png"
-            },
-            "id": {
-                "S": "333"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Fireworks"
-            },
-            "imgUrl": {
                 "S": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Fireworks_2006_TV_poster.jpg/250px-Fireworks_2006_TV_poster.jpg"
             },
             "Genre": {
@@ -9960,37 +8320,6 @@
             },
             "No. of episodes": {
                 "S": "17"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "First Love"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance, Drama"
-            },
-            "Starring": {
-                "S": "Bae Yong-joon Choi Soo-jong Lee Seung-yeon"
-            },
-            "Running time": {
-                "S": "Saturdays and Sundays at 19:55 (KST)"
-            },
-            "Original release": {
-                "S": "7 September 1996 – 20 April 1997"
-            },
-            "id": {
-                "S": "335"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "66"
             }
         }
     },
@@ -10143,34 +8472,6 @@
             },
             "No. of episodes": {
                 "S": "30"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Flames of Desire"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/FlamesofAmbition.jpg/250px-FlamesofAmbition.jpg"
-            },
-            "Starring": {
-                "S": "Shin Eun-kyung Seo Woo Yoo Seung-ho Jo Min-ki Lee Soon-jae"
-            },
-            "Running time": {
-                "S": "60 minutes"
-            },
-            "Original release": {
-                "S": "October 2, 2010 – March 27, 2011"
-            },
-            "id": {
-                "S": "341"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "50"
             }
         }
     },
@@ -10388,65 +8689,6 @@
     {
         "M": {
             "name": {
-                "S": "Fly High Butterfly"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama"
-            },
-            "Starring": {
-                "S": "Kim Hyang-gi Oh Yoon-ah Choi Daniel Shim Eun-woo"
-            },
-            "Running time": {
-                "S": "70 minutes"
-            },
-            "Original release": {
-                "S": "2022"
-            },
-            "id": {
-                "S": "349"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Forbidden Love"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/KBS_Forbidden_Love.jpg/250px-KBS_Forbidden_Love.jpg"
-            },
-            "Starring": {
-                "S": "Kim Tae-hee Jo Hyun-jae Jun Jin Han Ye-seul Park Joon-seok Uhm Tae-woong"
-            },
-            "Running time": {
-                "S": "Mondays and Tuesdays at 21:50 (KST)"
-            },
-            "Original release": {
-                "S": "July 19 – September 7, 2004"
-            },
-            "id": {
-                "S": "350"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Forecasting Love and Weather"
             },
             "imgUrl": {
@@ -10509,124 +8751,6 @@
     {
         "M": {
             "name": {
-                "S": "Forever Young"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama"
-            },
-            "Starring": {
-                "S": "Nhã Phương Kang Tae-oh "
-            },
-            "Running time": {
-                "S": "45 min / episode"
-            },
-            "Original release": {
-                "S": "Vietnam (Part 1): 17 December 2014 – 23 April 2015 South Korea (Part 1): 23 June 2015 – 30 July 2015 Vietnam (Part 2): 3 November 2016 – 22 March 2017"
-            },
-            "id": {
-                "S": "353"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "Part 1: 36 Part 2: 38"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Foundation of the Kingdom"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Historical"
-            },
-            "Starring": {
-                "S": "Im Hyuk Im Dong-jin Im Hyuk-joo"
-            },
-            "Original release": {
-                "S": "2 January – 18 December 1983"
-            },
-            "id": {
-                "S": "354"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Four Sisters"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama Romance"
-            },
-            "Starring": {
-                "S": "Hwang Soo-jung Chae Rim Ahn Yeon-hong Park Ye-jin"
-            },
-            "Original release": {
-                "S": "June 13 – August 16, 2001"
-            },
-            "id": {
-                "S": "355"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Freedom Fighter, Lee Hoe-young"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Historical"
-            },
-            "Starring": {
-                "S": "Jung Dong-hwan Ahn Jae-mo Lee Ah-yi Hong Il-kwon Kwon Oh-joong"
-            },
-            "Running time": {
-                "S": "Saturdays and Sundays at 21:05 (KST)"
-            },
-            "Original release": {
-                "S": "29 August – 12 September 2010"
-            },
-            "id": {
-                "S": "356"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "5"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Freeze"
             },
             "imgUrl": {
@@ -10680,34 +8804,6 @@
             },
             "No. of episodes": {
                 "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Friends"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Won Bin Kyoko Fukada"
-            },
-            "Running time": {
-                "S": "129 minutes (per 2 episodes)"
-            },
-            "Original release": {
-                "S": "February 4 – February 5, 2002"
-            },
-            "id": {
-                "S": "359"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "4"
             }
         }
     },
@@ -10953,31 +9049,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Get Up"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Get_up_film.jpg/250px-Get_up_film.jpg"
-            },
-            "Starring": {
-                "S": "Lee Min-ho Rhyme Choi Ah-jin"
-            },
-            "Original release": {
-                "S": "24 February 2008"
-            },
-            "id": {
-                "S": "368"
-            },
-            "rating": {
-                "S": "6"
-            },
-            "No. of episodes": {
-                "S": "1 (television film)"
             }
         }
     },
@@ -11524,65 +9595,6 @@
     {
         "M": {
             "name": {
-                "S": "Golden Apple"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance, Drama"
-            },
-            "Starring": {
-                "S": "Park Sol-mi Kim Ji-hoon Ji Hyun-woo Go Eun-ah Jung Chan"
-            },
-            "Running time": {
-                "S": "Wednesdays and Thursdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "16 November 2005 – 23 February 2006"
-            },
-            "id": {
-                "S": "387"
-            },
-            "rating": {
-                "S": "8"
-            },
-            "No. of episodes": {
-                "S": "30"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Golden Bride"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Golden_Bride_%28poster%29.jpg/250px-Golden_Bride_%28poster%29.jpg"
-            },
-            "Starring": {
-                "S": "Song Jong-ho Lee Young-ah Song Chang-eui Choi Yeo-jin Kim Hee-chul"
-            },
-            "Running time": {
-                "S": "70 minutes"
-            },
-            "Original release": {
-                "S": "23 June 2007 – 3 February 2008"
-            },
-            "id": {
-                "S": "388"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "64"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Golden Cross"
             },
             "imgUrl": {
@@ -11729,31 +9741,6 @@
             },
             "No. of episodes": {
                 "S": "41"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Golden Spoon"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Yook Sung-jae Lee Jong-won Jung Chae-yeon Yeonwoo"
-            },
-            "Original release": {
-                "S": "2022"
-            },
-            "id": {
-                "S": "394"
-            },
-            "rating": {
-                "S": "2"
-            },
-            "No. of episodes": {
-                "S": "undefined"
             }
         }
     },
@@ -11909,37 +9896,6 @@
     {
         "M": {
             "name": {
-                "S": "Goodbye Dear Wife"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/f/fc/Goodbye_Dear_Wife-poster.jpg"
-            },
-            "Genre": {
-                "S": "Romance Drama"
-            },
-            "Starring": {
-                "S": "Ryu Si-won Hong Soo-hyun Park Ji-yoon Danny Ahn Julien Kang"
-            },
-            "Running time": {
-                "S": "Mondays and Tuesdays at 20:50 (KST)"
-            },
-            "Original release": {
-                "S": "7 May – 10 July 2012"
-            },
-            "id": {
-                "S": "400"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Goodbye Mr. Black"
             },
             "imgUrl": {
@@ -11965,28 +9921,6 @@
             },
             "No. of episodes": {
                 "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Goodbye My Love"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Original release": {
-                "S": "September 1 – October 21, 1999"
-            },
-            "id": {
-                "S": "402"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "16"
             }
         }
     },
@@ -12201,37 +10135,6 @@
             },
             "No. of episodes": {
                 "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Great Inheritance"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance, Drama, Comedy"
-            },
-            "Starring": {
-                "S": "Kim Jaewon Han Ji-min Kim Ji-hoon Lee Mi-sook"
-            },
-            "Running time": {
-                "S": "70 minutes Wednesdays and Thursdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "May 3 – June 29, 2006"
-            },
-            "id": {
-                "S": "410"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "17"
             }
         }
     },
@@ -12474,34 +10377,6 @@
             },
             "No. of episodes": {
                 "S": "22"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Gwanggaeto, The Great Conqueror"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Lee Tae-gon Kim Seung-soo Im Ho Park Jung-chul Oh Ji-eun Lee In-hye"
-            },
-            "Running time": {
-                "S": "Saturdays and Sundays at 21:40 (KST)"
-            },
-            "Original release": {
-                "S": "June 4, 2011 – April 29, 2012"
-            },
-            "id": {
-                "S": "419"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "92"
             }
         }
     },
@@ -12815,65 +10690,6 @@
     {
         "M": {
             "name": {
-                "S": "He Who Can't Marry"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/He_Who_Can%27t_Marry_%28%EA%B2%B0%ED%98%BC_%EB%AA%BB%ED%95%98%EB%8A%94_%EB%82%A8%EC%9E%90%29-poster.jpg/250px-He_Who_Can%27t_Marry_%28%EA%B2%B0%ED%98%BC_%EB%AA%BB%ED%95%98%EB%8A%94_%EB%82%A8%EC%9E%90%29-poster.jpg"
-            },
-            "Starring": {
-                "S": "Ji Jin-hee Uhm Jung-hwa Kim So-eun Yoo Ah-in Yang Jung-a"
-            },
-            "Running time": {
-                "S": "60 minutes Mondays and Tuesdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "June 15 – August 4, 2009"
-            },
-            "id": {
-                "S": "430"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Heading to the Ground"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Sports Comedy"
-            },
-            "Starring": {
-                "S": "Yunho Go Ara Lee Yoon-ji Lee Sang-yoon"
-            },
-            "Running time": {
-                "S": "70 minutes"
-            },
-            "Original release": {
-                "S": "September 9 – November 4, 2009"
-            },
-            "id": {
-                "S": "431"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Healer"
             },
             "imgUrl": {
@@ -13175,37 +10991,6 @@
     {
         "M": {
             "name": {
-                "S": "Hello Franceska"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Horror Comedy Vampire Sitcom Black comedy Satire"
-            },
-            "Starring": {
-                "S": "Shim Hye-jin Lee Doo-il Jung Ryeo-won Lee Kyeon Park Seul-gi Park Hee-jin Shin Hae-chul Kim Soo-mi Kang Doo Hyun Young Lee In-sung"
-            },
-            "Running time": {
-                "S": "50 minutes"
-            },
-            "Original release": {
-                "S": "January 24, 2005 – February 27, 2006"
-            },
-            "id": {
-                "S": "442"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "52"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Hello Monster"
             },
             "imgUrl": {
@@ -13228,34 +11013,6 @@
             },
             "rating": {
                 "S": "2"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Hello My Teacher"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Hello_My_Teacher-poster.jpg/250px-Hello_My_Teacher-poster.jpg"
-            },
-            "Starring": {
-                "S": "Gong Hyo-jin Gong Yoo Kim Da-hyun Choi Yeo-jin"
-            },
-            "Running time": {
-                "S": "Wednesdays and Thursdays at 21:55"
-            },
-            "Original release": {
-                "S": "April 13 – June 2, 2005"
-            },
-            "id": {
-                "S": "444"
-            },
-            "rating": {
-                "S": "9"
             },
             "No. of episodes": {
                 "S": "16"
@@ -14152,37 +11909,6 @@
     {
         "M": {
             "name": {
-                "S": "Hong Kong Express"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama, Romance"
-            },
-            "Starring": {
-                "S": "Cho Jae-hyun Song Yoon-ah Cha In-pyo"
-            },
-            "Running time": {
-                "S": "60 minutes Wednesdays and Thursdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "February 16 – April 7, 2005"
-            },
-            "id": {
-                "S": "474"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Hospital Playlist"
             },
             "imgUrl": {
@@ -14586,65 +12312,6 @@
     {
         "M": {
             "name": {
-                "S": "How Should I Be"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama"
-            },
-            "Starring": {
-                "S": "Kim Suk-hoon Yoo Jun-sang Kim Ji Ho Kim Sa-rang (actress)"
-            },
-            "Running time": {
-                "S": "65 minutes"
-            },
-            "Original release": {
-                "S": "28 August – 13 November 2002"
-            },
-            "id": {
-                "S": "488"
-            },
-            "rating": {
-                "S": "6"
-            },
-            "No. of episodes": {
-                "S": "24"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Hur Jun"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama"
-            },
-            "Starring": {
-                "S": "Jun Kwang-ryul Hwang Soo-jung Lee Soon-jae"
-            },
-            "Original release": {
-                "S": "22 November 1999 – 27 June 2000"
-            },
-            "id": {
-                "S": "489"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "64"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Hur Jun, The Original Story"
             },
             "imgUrl": {
@@ -14794,37 +12461,6 @@
             },
             "No. of episodes": {
                 "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Hyena"
-            },
-            "imgUrl": {
-                "S": "http://localhost:4800/img"
-            },
-            "Genre": {
-                "S": "Legal"
-            },
-            "Starring": {
-                "S": "Kim Hye-soo Ju Ji-hoon"
-            },
-            "Running time": {
-                "S": "70 minutes"
-            },
-            "Original release": {
-                "S": "February 21 – April 11, 2020"
-            },
-            "id": {
-                "S": "495"
-            },
-            "rating": {
-                "S": "2"
-            },
-            "No. of episodes": {
-                "S": "16"
             }
         }
     },
@@ -15011,37 +12647,6 @@
     {
         "M": {
             "name": {
-                "S": "Only Because It's You"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance Melodrama Family"
-            },
-            "Starring": {
-                "S": "Yoon Hae-young Yoon Ji-min Lee Jae-hwang Park Hyuk-kwon"
-            },
-            "Running time": {
-                "S": "Mondays to Fridays at 08:30 (KST)"
-            },
-            "Original release": {
-                "S": "3 September 2012 – 15 February 2013"
-            },
-            "id": {
-                "S": "502"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "117"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "I Love Lee Taly"
             },
             "imgUrl": {
@@ -15188,37 +12793,6 @@
     {
         "M": {
             "name": {
-                "S": "I Picked Up a Celebrity on the Street"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romantic comedy"
-            },
-            "Starring": {
-                "S": "Sung Hoon Kim Ga-eun"
-            },
-            "Running time": {
-                "S": "1 hour 5 minutes"
-            },
-            "Original release": {
-                "S": "November 1 – November 30, 2018"
-            },
-            "id": {
-                "S": "508"
-            },
-            "rating": {
-                "S": "9"
-            },
-            "No. of episodes": {
-                "S": "10"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "I Wanna Hear Your Song"
             },
             "imgUrl": {
@@ -15312,37 +12886,6 @@
     {
         "M": {
             "name": {
-                "S": "I'm Sorry, I Love You"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Melodrama Romance"
-            },
-            "Starring": {
-                "S": "So Ji-sub Im Soo-jung"
-            },
-            "Running time": {
-                "S": "Mondays and Tuesdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "November 8 – December 28, 2004"
-            },
-            "id": {
-                "S": "512"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Ice Adonis"
             },
             "imgUrl": {
@@ -15368,34 +12911,6 @@
             },
             "No. of episodes": {
                 "S": "108"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Ice Girl"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Kim Hyo-jin Kim Joo-seung Kim Nam-jin Seo Ji-hye"
-            },
-            "Running time": {
-                "S": "Mondays and Tuesdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "June 27 – August 16, 2005"
-            },
-            "id": {
-                "S": "514"
-            },
-            "rating": {
-                "S": "9"
-            },
-            "No. of episodes": {
-                "S": "16"
             }
         }
     },
@@ -15492,62 +13007,6 @@
     {
         "M": {
             "name": {
-                "S": "If You Say Your Wish"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Ji Chang-wook Sung Dong-il Choi Soo-young"
-            },
-            "Original release": {
-                "S": "August 2022"
-            },
-            "id": {
-                "S": "518"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Iljimae"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Historical"
-            },
-            "Starring": {
-                "S": "Jang Dong-gun Yum Jung-ah"
-            },
-            "Running time": {
-                "S": "60 minutes"
-            },
-            "Original release": {
-                "S": "August 9 – August 31, 1993"
-            },
-            "id": {
-                "S": "519"
-            },
-            "rating": {
-                "S": "8"
-            },
-            "No. of episodes": {
-                "S": "8"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Iljimae"
             },
             "imgUrl": {
@@ -15573,37 +13032,6 @@
             },
             "No. of episodes": {
                 "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Imaginary Cat"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance Comedy Fantasy"
-            },
-            "Starring": {
-                "S": "Yoo Seung-ho Han Ye-ri Cho Hye-jung"
-            },
-            "Running time": {
-                "S": "35 minutes"
-            },
-            "Original release": {
-                "S": "November 24, 2015 – January 12, 2016"
-            },
-            "id": {
-                "S": "521"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "8"
             }
         }
     },
@@ -16072,31 +13500,6 @@
     {
         "M": {
             "name": {
-                "S": "Island"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Fantasy Mystery"
-            },
-            "Original release": {
-                "S": "2022"
-            },
-            "id": {
-                "S": "537"
-            },
-            "rating": {
-                "S": "2"
-            },
-            "No. of episodes": {
-                "S": "12"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Itaewon Class"
             },
             "imgUrl": {
@@ -16277,31 +13680,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "It's Okay, Daddy's Girl"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/400px-ItsOkayDaddysGirl.jpg/245px-400px-ItsOkayDaddysGirl.jpg"
-            },
-            "Starring": {
-                "S": "Moon Chae-won Park In-hwan Choi Jin-hyuk"
-            },
-            "Original release": {
-                "S": "November 22, 2010 – January 28, 2011"
-            },
-            "id": {
-                "S": "544"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "17"
             }
         }
     },
@@ -16581,37 +13959,6 @@
     {
         "M": {
             "name": {
-                "S": "Jikji"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Historical"
-            },
-            "Starring": {
-                "S": "Han-Min Kim Jin-keun"
-            },
-            "Running time": {
-                "S": "80 minutes"
-            },
-            "Original release": {
-                "S": "December 3, 2005"
-            },
-            "id": {
-                "S": "554"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "1"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Jinxed at First"
             },
             "imgUrl": {
@@ -16761,37 +14108,6 @@
     {
         "M": {
             "name": {
-                "S": "Joseon Survival Period"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Historical Fantasy"
-            },
-            "Starring": {
-                "S": "Kang Ji-hwan (Ep. 1–10) Seo Ji-seok (Ep. 11–16) Kyung Soo-jin Song Won-seok Park Se-wan Lee Jae-yoon Han Jae-suk Yoon Ji-min"
-            },
-            "Running time": {
-                "S": "60 minute"
-            },
-            "Original release": {
-                "S": "June 8 – August 17, 2019"
-            },
-            "id": {
-                "S": "560"
-            },
-            "rating": {
-                "S": "6"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Joseon X-Files"
             },
             "imgUrl": {
@@ -16817,31 +14133,6 @@
             },
             "No. of episodes": {
                 "S": "12"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "JTBC Drama Festa"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama"
-            },
-            "Original release": {
-                "S": "October 2, 2017 – present"
-            },
-            "id": {
-                "S": "562"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "38"
             }
         }
     },
@@ -16972,25 +14263,6 @@
     {
         "M": {
             "name": {
-                "S": "Jump"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "id": {
-                "S": "567"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Jungle Fish"
             },
             "imgUrl": {
@@ -17016,37 +14288,6 @@
             },
             "No. of episodes": {
                 "S": "9"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Junwoo"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "War, Drama"
-            },
-            "Starring": {
-                "S": "Ra Si-chan Jang Hang-sun Heo Young"
-            },
-            "Running time": {
-                "S": "50 minutes Saturdays and Sundays (KST)"
-            },
-            "Original release": {
-                "S": "28 June 1975 – 8 April 1978"
-            },
-            "id": {
-                "S": "569"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "undefined"
             }
         }
     },
@@ -17202,245 +14443,6 @@
             },
             "No. of episodes": {
                 "S": "181"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Cutting Off the Heart"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Running time": {
-                "S": "72 minutes"
-            },
-            "id": {
-                "S": "575"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Do You Know Taekwondo?"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/DoYouKnowTaekwondoPoster.jpg/250px-DoYouKnowTaekwondoPoster.jpg"
-            },
-            "Running time": {
-                "S": "68 minutes"
-            },
-            "id": {
-                "S": "576"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "I'm Dying Soon"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Running time": {
-                "S": "86 minutes"
-            },
-            "id": {
-                "S": "577"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "If We Were a Season"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Running time": {
-                "S": "77 minutes"
-            },
-            "id": {
-                "S": "578"
-            },
-            "rating": {
-                "S": "2"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "My Prettiest Moments"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Running time": {
-                "S": "71 minutes"
-            },
-            "id": {
-                "S": "579"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Pianist"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Pianistposter.jpg/250px-Pianistposter.jpg"
-            },
-            "Running time": {
-                "S": "73 minutes"
-            },
-            "id": {
-                "S": "580"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Pinocchio's Nose"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Running time": {
-                "S": "75 minutes"
-            },
-            "id": {
-                "S": "581"
-            },
-            "rating": {
-                "S": "2"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Reason"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Running time": {
-                "S": "73 minutes"
-            },
-            "id": {
-                "S": "582"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Review Notebook of My Embarrassing Days"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png"
-            },
-            "Running time": {
-                "S": "69 minutes"
-            },
-            "id": {
-                "S": "583"
-            },
-            "rating": {
-                "S": "9"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "The Memory in My Old Wallet"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Running time": {
-                "S": "76 minutes"
-            },
-            "id": {
-                "S": "584"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "KBS TV Novel"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "id": {
-                "S": "585"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "undefined"
             }
         }
     },
@@ -17633,37 +14635,6 @@
     {
         "M": {
             "name": {
-                "S": "Love, My Love"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama, Romance, Family"
-            },
-            "Starring": {
-                "S": "Hwang Sun-hee Song Min-jung Oh Chang-seok Kim San-ho"
-            },
-            "Running time": {
-                "S": "Mondays to Fridays at 09:00 (KST)"
-            },
-            "Original release": {
-                "S": "7 May 2012 – 4 January 2013"
-            },
-            "id": {
-                "S": "592"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "175"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "My Mind's Flower Rain"
             },
             "imgUrl": {
@@ -17695,37 +14666,6 @@
     {
         "M": {
             "name": {
-                "S": "Samsaengi"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama, Romance, Family"
-            },
-            "Starring": {
-                "S": "Hong Ah-reum Son Sung-yoon Cha Do-jin Ji Il-joo"
-            },
-            "Running time": {
-                "S": "35 minutes Mondays through Fridays at 09:00 (KST)"
-            },
-            "Original release": {
-                "S": "7 January – 21 June 2013"
-            },
-            "id": {
-                "S": "594"
-            },
-            "rating": {
-                "S": "9"
-            },
-            "No. of episodes": {
-                "S": "120"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Single-minded Dandelion"
             },
             "imgUrl": {
@@ -17751,25 +14691,6 @@
             },
             "No. of episodes": {
                 "S": "134"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Sunok"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "id": {
-                "S": "596"
-            },
-            "rating": {
-                "S": "6"
-            },
-            "No. of episodes": {
-                "S": "undefined"
             }
         }
     },
@@ -17962,34 +14883,6 @@
     {
         "M": {
             "name": {
-                "S": "Kim Is a Genius"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama Fantasy"
-            },
-            "Starring": {
-                "S": "Yoo Young-jae Park Soo-ah Jung Sung-ho Choi Moon-hee"
-            },
-            "Original release": {
-                "S": "November 2019"
-            },
-            "id": {
-                "S": "603"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Kim Su-ro, The Iron King"
             },
             "imgUrl": {
@@ -18012,31 +14905,6 @@
             },
             "No. of episodes": {
                 "S": "32"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Kimcheed Radish Cubes"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Kimcheed_Radish_Cubes.jpg/250px-Kimcheed_Radish_Cubes.jpg"
-            },
-            "Starring": {
-                "S": "Kim Seung-soo Yoo Ho-jeong Park Shin-hye"
-            },
-            "Original release": {
-                "S": "August 18, 2007 – January 27, 2008"
-            },
-            "id": {
-                "S": "605"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "44"
             }
         }
     },
@@ -18316,37 +15184,6 @@
     {
         "M": {
             "name": {
-                "S": "Land of Wine"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama"
-            },
-            "Starring": {
-                "S": "Kim Jaewon Kim Min-jung Choi Kang-hee Lee Dong-wook"
-            },
-            "Running time": {
-                "S": "60 minutes"
-            },
-            "Original release": {
-                "S": "April 9 – May 29, 2003"
-            },
-            "id": {
-                "S": "615"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Last"
             },
             "imgUrl": {
@@ -18397,37 +15234,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Late Night Restaurant"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Mystery Slice of life Food"
-            },
-            "Starring": {
-                "S": "Kim Seung-woo"
-            },
-            "Running time": {
-                "S": "30 minutes Saturdays at 24:10/24:40 (KST)"
-            },
-            "Original release": {
-                "S": "July 4 – September 5, 2015"
-            },
-            "id": {
-                "S": "618"
-            },
-            "rating": {
-                "S": "9"
-            },
-            "No. of episodes": {
-                "S": "20"
             }
         }
     },
@@ -18487,34 +15293,6 @@
             },
             "rating": {
                 "S": "0"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Lawyers"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance Thriller"
-            },
-            "Starring": {
-                "S": "Jung Hye-young Kim Sang-kyung Kim Sung-soo Han Go-eun"
-            },
-            "Original release": {
-                "S": "July 4 – August 23, 2005"
-            },
-            "id": {
-                "S": "621"
-            },
-            "rating": {
-                "S": "2"
             },
             "No. of episodes": {
                 "S": "16"
@@ -18611,59 +15389,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Legend of Hyang Dan"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/6/69/Legend_of_Hyang_Dan-poster.jpg"
-            },
-            "Starring": {
-                "S": "Seo Ji-hye Choi Siwon"
-            },
-            "Running time": {
-                "S": "60 minutes"
-            },
-            "Original release": {
-                "S": "September 3 – September 4, 2007"
-            },
-            "id": {
-                "S": "625"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "2"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Legend of the Patriots"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/f/f7/Legend_of_the_Patriots.jpg"
-            },
-            "Running time": {
-                "S": "Saturdays & Sundays at 20:55 (KST)"
-            },
-            "Original release": {
-                "S": "19 June – 22 August 2010"
-            },
-            "id": {
-                "S": "626"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "20"
             }
         }
     },
@@ -19055,34 +15780,6 @@
     {
         "M": {
             "name": {
-                "S": "Life on Mars"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/Life_on_Mars_Korea_poster.jpg/250px-Life_on_Mars_Korea_poster.jpg"
-            },
-            "Genre": {
-                "S": "Police procedural Crime Science fiction"
-            },
-            "Starring": {
-                "S": "Jung Kyung-ho Park Sung-woong Go Ah-sung Oh Dae-hwan Noh Jong-hyun"
-            },
-            "Original release": {
-                "S": "June 9 – August 5, 2018"
-            },
-            "id": {
-                "S": "640"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Lights and Shadows"
             },
             "imgUrl": {
@@ -19297,37 +15994,6 @@
     {
         "M": {
             "name": {
-                "S": "Little Women"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Mystery"
-            },
-            "Starring": {
-                "S": "Kim Go-eun Nam Ji-hyun Park Ji-hu Wi Ha-joon"
-            },
-            "Running time": {
-                "S": "70 minutes"
-            },
-            "Original release": {
-                "S": "August 27, 2022"
-            },
-            "id": {
-                "S": "648"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "12"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Live"
             },
             "imgUrl": {
@@ -19511,34 +16177,6 @@
     {
         "M": {
             "name": {
-                "S": "Lobbyist"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Lobbyist_TV_series-poster.jpg/250px-Lobbyist_TV_series-poster.jpg"
-            },
-            "Starring": {
-                "S": "Song Il-gook Jang Jin-young Han Jae-suk"
-            },
-            "Running time": {
-                "S": "Wednesdays and Thursdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "October 3 – December 26, 2007"
-            },
-            "id": {
-                "S": "655"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "24"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Local Hero"
             },
             "imgUrl": {
@@ -19564,37 +16202,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Look Back in Anger"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Action Drama"
-            },
-            "Starring": {
-                "S": "Joo Jin-mo Park Jin-hee Lee Min-woo"
-            },
-            "Running time": {
-                "S": "Mondays and Tuesdays at 21:50 (KST)"
-            },
-            "Original release": {
-                "S": "28 February – 18 April 2000"
-            },
-            "id": {
-                "S": "657"
-            },
-            "rating": {
-                "S": "9"
-            },
-            "No. of episodes": {
-                "S": "18"
             }
         }
     },
@@ -19725,31 +16332,6 @@
     {
         "M": {
             "name": {
-                "S": "The Law Cafe"
-            },
-            "imgUrl": {
-                "S": "http://localhost:4800/img"
-            },
-            "Starring": {
-                "S": "Lee Seung-gi Lee Se-young"
-            },
-            "Original release": {
-                "S": "August 29, 2022"
-            },
-            "id": {
-                "S": "662"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Love Again"
             },
             "imgUrl": {
@@ -19865,62 +16447,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Love and Obsession"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "melodrama"
-            },
-            "Running time": {
-                "S": "30 minute"
-            },
-            "Original release": {
-                "S": "April 20 – October 10, 2009"
-            },
-            "id": {
-                "S": "667"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "150"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Love Can't Wait"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/6/62/Love_can%27t_wait.jpg"
-            },
-            "Starring": {
-                "S": "Hong Kyung-min Lee Young-ah Choi Jung-yoon Choi Kyu-hwan"
-            },
-            "Running time": {
-                "S": "30 minutes"
-            },
-            "Original release": {
-                "S": "January 2 – June 30, 2006"
-            },
-            "id": {
-                "S": "668"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "124"
             }
         }
     },
@@ -20386,34 +16912,6 @@
     {
         "M": {
             "name": {
-                "S": "Love Truly"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Eugene Lee Min-ki Ryu Jin"
-            },
-            "Running time": {
-                "S": "50 minutes"
-            },
-            "Original release": {
-                "S": "April 8 – August 6, 2006"
-            },
-            "id": {
-                "S": "684"
-            },
-            "rating": {
-                "S": "6"
-            },
-            "No. of episodes": {
-                "S": "34"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Love with Flaws"
             },
             "imgUrl": {
@@ -20476,34 +16974,6 @@
     {
         "M": {
             "name": {
-                "S": "Loveholic"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Loveholic%2C_2005_TV_series.jpg/250px-Loveholic%2C_2005_TV_series.jpg"
-            },
-            "Starring": {
-                "S": "Kangta Kim Min-sun Lee Sun-kyun Yoo In-young"
-            },
-            "Running time": {
-                "S": "Mondays and Tuesdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "May 2 – June 21, 2005"
-            },
-            "id": {
-                "S": "687"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Lovely Horribly"
             },
             "imgUrl": {
@@ -20529,31 +16999,6 @@
             },
             "No. of episodes": {
                 "S": "32"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Lovers"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/0/04/Lovers_%28TV_Series%29_poster.jpg"
-            },
-            "Starring": {
-                "S": "Kim Jung-eun Lee Seo-jin"
-            },
-            "Original release": {
-                "S": "November 8, 2006 – January 11, 2007"
-            },
-            "id": {
-                "S": "689"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "20"
             }
         }
     },
@@ -20830,37 +17275,6 @@
     {
         "M": {
             "name": {
-                "S": "Ma Boy"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romantic comedy Teen drama"
-            },
-            "Starring": {
-                "S": "Kim So-hyun Kim Sun-woong"
-            },
-            "Running time": {
-                "S": "Thursday 21:00"
-            },
-            "Original release": {
-                "S": "16 August – 30 August 2012"
-            },
-            "id": {
-                "S": "699"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "3"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Mackerel Run"
             },
             "imgUrl": {
@@ -20976,34 +17390,6 @@
             },
             "No. of episodes": {
                 "S": "10"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Magic Kid Masuri"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Fantasy"
-            },
-            "Starring": {
-                "S": "Oh Seung-yoon Yoon Young-ah Kim Hee-jung Han Bo-bae"
-            },
-            "Original release": {
-                "S": "February 18, 2002 – February 27, 2004"
-            },
-            "id": {
-                "S": "704"
-            },
-            "rating": {
-                "S": "9"
-            },
-            "No. of episodes": {
-                "S": "496"
             }
         }
     },
@@ -21469,62 +17855,6 @@
     {
         "M": {
             "name": {
-                "S": "Marrying a Millionaire"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/0/0b/Marrying_a_Millionaire-poster.jpg"
-            },
-            "Starring": {
-                "S": "Kim Hyun-joo Go Soo Yoon Sang-hyun Son Tae-young"
-            },
-            "Original release": {
-                "S": "November 26, 2005 – January 22, 2006"
-            },
-            "id": {
-                "S": "720"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Marrying My Daughter Twice"
-            },
-            "imgUrl": {
-                "S": "http://localhost:4800/img"
-            },
-            "Genre": {
-                "S": "Comedy Drama Family"
-            },
-            "Starring": {
-                "S": "Yang Jin-sung Seo Ha-joon Park Soon-chun Jang Seung-jo"
-            },
-            "Running time": {
-                "S": "40 minutes"
-            },
-            "Original release": {
-                "S": "January 4 – June 17, 2016"
-            },
-            "id": {
-                "S": "721"
-            },
-            "rating": {
-                "S": "6"
-            },
-            "No. of episodes": {
-                "S": "120"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Mask"
             },
             "imgUrl": {
@@ -21944,34 +18274,6 @@
     {
         "M": {
             "name": {
-                "S": "Memory"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Melodrama"
-            },
-            "Starring": {
-                "S": "Lee Sung-min Kim Ji-soo Park Jin-hee"
-            },
-            "Original release": {
-                "S": "March 18 – May 7, 2016"
-            },
-            "id": {
-                "S": "736"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Men Are Men"
             },
             "imgUrl": {
@@ -21997,65 +18299,6 @@
             },
             "No. of episodes": {
                 "S": "32"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Mental Coach Je Gal-gil"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Sports drama"
-            },
-            "Starring": {
-                "S": "Jung Woo Lee Yoo-mi Kwon Yul Park Se-young"
-            },
-            "Original release": {
-                "S": "September 2022"
-            },
-            "id": {
-                "S": "738"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Merry Mary"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance Comedy"
-            },
-            "Starring": {
-                "S": "Lee Ha-na Ji Hyun-woo Lee Min-woo Wang Bit-na"
-            },
-            "Running time": {
-                "S": "Wednesdays and Thursdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "May 16 – July 5, 2007"
-            },
-            "id": {
-                "S": "739"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "16"
             }
         }
     },
@@ -22146,65 +18389,6 @@
             },
             "No. of episodes": {
                 "S": "4"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Mina"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama, Romance"
-            },
-            "Starring": {
-                "S": "Chae Jung-an Kim Sa-rang Kim Seung-soo Ahn Jae-mo"
-            },
-            "Running time": {
-                "S": "Mondays and Tuesdays at 21:50 (KST)"
-            },
-            "Original release": {
-                "S": "November 5 – December 24, 2001"
-            },
-            "id": {
-                "S": "743"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Café Minamdang"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/f/fe/Caf%C3%A9_Minamdang.jpg"
-            },
-            "Genre": {
-                "S": "Mystery"
-            },
-            "Starring": {
-                "S": "Seo In-guk Oh Yeon-seo Kwak Si-yang Kang Mi-na Kwon Soo-hyun"
-            },
-            "Original release": {
-                "S": "June 27, 2022"
-            },
-            "id": {
-                "S": "744"
-            },
-            "rating": {
-                "S": "6"
-            },
-            "No. of episodes": {
-                "S": "undefined"
             }
         }
     },
@@ -22357,37 +18541,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Miss Mamma Mia"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Melodrama Romance"
-            },
-            "Starring": {
-                "S": "Kang Byul Han Go-eun Shim Hyung-tak Seo Do-young"
-            },
-            "Running time": {
-                "S": "60 minutes Wednesdays to Thursdays at 23:00 (KST)"
-            },
-            "Original release": {
-                "S": "January 28 – March 12, 2015"
-            },
-            "id": {
-                "S": "750"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "12"
             }
         }
     },
@@ -22664,37 +18817,6 @@
     {
         "M": {
             "name": {
-                "S": "Model"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance, Drama"
-            },
-            "Starring": {
-                "S": "Kim Nam-joo Han Jae-suk Jang Dong-gun Yum Jung-ah So Ji-sub"
-            },
-            "Running time": {
-                "S": "Wednesdays and Thursdays at 21:45 (KST)"
-            },
-            "Original release": {
-                "S": "April 9 – August 7, 1997"
-            },
-            "id": {
-                "S": "760"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "36"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Modern Farmer"
             },
             "imgUrl": {
@@ -22720,56 +18842,6 @@
             },
             "No. of episodes": {
                 "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Mom and Sister"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "id": {
-                "S": "762"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Mom Has an Affair"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance Drama Family"
-            },
-            "Starring": {
-                "S": "Hyun Jyu-ni Lee Jae-hwang Moon Bo-ryung Kim Hyeong-beom"
-            },
-            "Running time": {
-                "S": "35 minutes"
-            },
-            "Original release": {
-                "S": "May 4 – October 23, 2020"
-            },
-            "id": {
-                "S": "763"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "122"
             }
         }
     },
@@ -23359,34 +19431,6 @@
     {
         "M": {
             "name": {
-                "S": "Moving"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Action Supernatural Fantasy"
-            },
-            "Starring": {
-                "S": "Lee Jung-ha Ryu Seung-ryong Han Hyo-joo Jo In-sung Kim Sung-kyun Go Yoon-jung Kim Do-hoon"
-            },
-            "Original release": {
-                "S": "2022"
-            },
-            "id": {
-                "S": "783"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Mr. Back"
             },
             "imgUrl": {
@@ -23589,37 +19633,6 @@
     {
         "M": {
             "name": {
-                "S": "Ms. Kim's Million Dollar Quest"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama Romantic Comedy"
-            },
-            "Starring": {
-                "S": "Kim Hyun-joo Ji Jin-hee Kim Sung-ryung Park Gun-hyung"
-            },
-            "Running time": {
-                "S": "70 minutes"
-            },
-            "Original release": {
-                "S": "April 7 – May 27, 2004"
-            },
-            "id": {
-                "S": "791"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Ms. Ma, Nemesis"
             },
             "imgUrl": {
@@ -23676,37 +19689,6 @@
             },
             "No. of episodes": {
                 "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "My 19 Year Old Sister-in-Law"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance, Comedy, Drama"
-            },
-            "Starring": {
-                "S": "Jung Da-bin Yoon Kye-sang Kim Jaewon Kim Min-hee"
-            },
-            "Running time": {
-                "S": "60 minutes on Wednesdays and Thursdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "July 28 – September 23, 2004"
-            },
-            "id": {
-                "S": "794"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "16"
             }
         }
     },
@@ -24172,37 +20154,6 @@
     {
         "M": {
             "name": {
-                "S": "My Fantastic Funeral"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Melodrama, romance"
-            },
-            "Starring": {
-                "S": "Kyung Soo-jin Choi Woo-shik"
-            },
-            "Running time": {
-                "S": "Saturday at 08:20 (KST)"
-            },
-            "Original release": {
-                "S": "September 26, 2015"
-            },
-            "id": {
-                "S": "810"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "2"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "My Father Is Strange"
             },
             "imgUrl": {
@@ -24603,34 +20554,6 @@
     {
         "M": {
             "name": {
-                "S": "My Husband's Woman"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Kim Hee-ae Bae Jong-ok Kim Sang-joong"
-            },
-            "Running time": {
-                "S": "Mondays and Tuesdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "2 April – 19 June 2007"
-            },
-            "id": {
-                "S": "824"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "24"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "My Kids Give Me a Headache"
             },
             "imgUrl": {
@@ -24867,37 +20790,6 @@
             },
             "No. of episodes": {
                 "S": "10"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "My Love Toram"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama"
-            },
-            "Starring": {
-                "S": "Ha Hee-ra"
-            },
-            "Running time": {
-                "S": "Friday at 21:45 (KST)"
-            },
-            "Original release": {
-                "S": "January 7, 2005"
-            },
-            "id": {
-                "S": "833"
-            },
-            "rating": {
-                "S": "2"
-            },
-            "No. of episodes": {
-                "S": "2"
             }
         }
     },
@@ -25819,37 +21711,6 @@
     {
         "M": {
             "name": {
-                "S": "New Heart"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Medical drama Romance"
-            },
-            "Starring": {
-                "S": "Ji Sung Kim Min-jung Cho Jae-hyun Lee Ji-hoon"
-            },
-            "Running time": {
-                "S": "60 minutes"
-            },
-            "Original release": {
-                "S": "December 12, 2007 – February 28, 2008"
-            },
-            "id": {
-                "S": "864"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "23"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "New Tales of Gisaeng"
             },
             "imgUrl": {
@@ -26033,37 +21894,6 @@
     {
         "M": {
             "name": {
-                "S": "Noble, My Love"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance Comedy"
-            },
-            "Starring": {
-                "S": "Sung Hoon Kim Jae-kyung Park Eun-seok Kim Dong Suk"
-            },
-            "Running time": {
-                "S": "15 min"
-            },
-            "Original release": {
-                "S": "July 23 – September 16, 2015"
-            },
-            "id": {
-                "S": "871"
-            },
-            "rating": {
-                "S": "8"
-            },
-            "No. of episodes": {
-                "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Nobody Knows"
             },
             "imgUrl": {
@@ -26120,31 +21950,6 @@
             },
             "No. of episodes": {
                 "S": "48"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Nonstop"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Comedy, drama, romance"
-            },
-            "Original release": {
-                "S": "May 15, 2000 – November 3, 2006"
-            },
-            "id": {
-                "S": "874"
-            },
-            "rating": {
-                "S": "8"
-            },
-            "No. of episodes": {
-                "S": "2248"
             }
         }
     },
@@ -26489,34 +22294,6 @@
     {
         "M": {
             "name": {
-                "S": "On Air"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/6/64/On_Air-poster.jpg/250px-On_Air-poster.jpg"
-            },
-            "Starring": {
-                "S": "Kim Ha-neul Park Yong-ha Lee Beom-soo Song Yoon-ah"
-            },
-            "Running time": {
-                "S": "Wednesdays and Thursdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "March 5 – May 15, 2008"
-            },
-            "id": {
-                "S": "886"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "21"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "On the Verge of Insanity"
             },
             "imgUrl": {
@@ -26700,34 +22477,6 @@
     {
         "M": {
             "name": {
-                "S": "One More Time"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Teen Romance Music Fantasy"
-            },
-            "Starring": {
-                "S": "L Yoon So-hee"
-            },
-            "Original release": {
-                "S": "October 26 – December 14, 2016"
-            },
-            "id": {
-                "S": "893"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "8"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "One Ordinary Day"
             },
             "imgUrl": {
@@ -26849,34 +22598,6 @@
     {
         "M": {
             "name": {
-                "S": "One Thousand Won Lawyer"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Legal drama"
-            },
-            "Starring": {
-                "S": "Namkoong Min Kim Ji-eun"
-            },
-            "Original release": {
-                "S": "2022"
-            },
-            "id": {
-                "S": "898"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "One Warm Word"
             },
             "imgUrl": {
@@ -26933,37 +22654,6 @@
             },
             "No. of episodes": {
                 "S": "122"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Only Because It's You"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance Melodrama Family"
-            },
-            "Starring": {
-                "S": "Yoon Hae-young Yoon Ji-min Lee Jae-hwang Park Hyuk-kwon"
-            },
-            "Running time": {
-                "S": "Mondays to Fridays at 08:30 (KST)"
-            },
-            "Original release": {
-                "S": "3 September 2012 – 15 February 2013"
-            },
-            "id": {
-                "S": "901"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "117"
             }
         }
     },
@@ -27119,34 +22809,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Our Blues"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Our_Blues_%28TV_series%29.jpeg/250px-Our_Blues_%28TV_series%29.jpeg"
-            },
-            "Starring": {
-                "S": "Lee Byung-hun Shin Min-a Cha Seung-won Lee Jung-eun Uhm Jung-hwa Han Ji-min Kim Woo-bin"
-            },
-            "Running time": {
-                "S": "60 minutes"
-            },
-            "Original release": {
-                "S": "April 9 – June 12, 2022"
-            },
-            "id": {
-                "S": "907"
-            },
-            "rating": {
-                "S": "2"
-            },
-            "No. of episodes": {
-                "S": "20"
             }
         }
     },
@@ -27327,37 +22989,6 @@
             },
             "No. of episodes": {
                 "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Papa"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance, Drama, Family"
-            },
-            "Starring": {
-                "S": "Bae Yong-joon Lee Young-ae"
-            },
-            "Running time": {
-                "S": "50 minutes"
-            },
-            "Original release": {
-                "S": "January 3 – February 29, 1996"
-            },
-            "id": {
-                "S": "914"
-            },
-            "rating": {
-                "S": "9"
-            },
-            "No. of episodes": {
-                "S": "18"
             }
         }
     },
@@ -27634,34 +23265,6 @@
     {
         "M": {
             "name": {
-                "S": "Phoenix"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/0/0b/Phoenix-poster.jpg"
-            },
-            "Starring": {
-                "S": "Lee Seo-jin Lee Eun-ju Jung Hye-young Eric Mun"
-            },
-            "Running time": {
-                "S": "60 minutes"
-            },
-            "Original release": {
-                "S": "April 5 – June 29, 2004"
-            },
-            "id": {
-                "S": "924"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "26"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Phoenix 2020"
             },
             "imgUrl": {
@@ -27867,34 +23470,6 @@
             },
             "No. of episodes": {
                 "S": "16 7 (YouTube Special Edition)"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Please Come Back, Soon-ae"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Please_Come_Back%2C_Soon-ae.jpg/250px-Please_Come_Back%2C_Soon-ae.jpg"
-            },
-            "Starring": {
-                "S": "Shim Hye-jin Park Jin-hee Lee Jae-hwang Yoon Da-hoon"
-            },
-            "Running time": {
-                "S": "60 minutes Wednesdays and Thursdays at 21:55"
-            },
-            "Original release": {
-                "S": "July 12 – August 31, 2006"
-            },
-            "id": {
-                "S": "932"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "16"
             }
         }
     },
@@ -28112,34 +23687,6 @@
     {
         "M": {
             "name": {
-                "S": "Precious Family"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Kim Hee-ae Heo Joon-ho Song Jae-ho Kim Hae-sook"
-            },
-            "Running time": {
-                "S": "60 minutes on Saturdays and Sundays at 19:55"
-            },
-            "Original release": {
-                "S": "October 16, 2004 – July 5, 2005"
-            },
-            "id": {
-                "S": "940"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "68"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Pride and Prejudice"
             },
             "imgUrl": {
@@ -28311,31 +23858,6 @@
             },
             "No. of episodes": {
                 "S": "24"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Princess Lulu"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Kim Jung-eun Jung Joon-ho"
-            },
-            "Original release": {
-                "S": "July 27 – September 29, 2005"
-            },
-            "id": {
-                "S": "947"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "20"
             }
         }
     },
@@ -28581,31 +24103,6 @@
             },
             "No. of episodes": {
                 "S": "124"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Que Sera, Sera"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Que_Sera_Sera_Korean_drama_poster.jpg/250px-Que_Sera_Sera_Korean_drama_poster.jpg"
-            },
-            "Starring": {
-                "S": "Eric Mun Jung Yu-mi Lee Kyu-han Yoon Ji-hye"
-            },
-            "Original release": {
-                "S": "March 17 – May 13, 2007"
-            },
-            "id": {
-                "S": "956"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "17"
             }
         }
     },
@@ -28873,37 +24370,6 @@
             },
             "No. of episodes": {
                 "S": "62"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Racket Boys"
-            },
-            "imgUrl": {
-                "S": "http://localhost:4800/img"
-            },
-            "Genre": {
-                "S": "Drama Sports"
-            },
-            "Starring": {
-                "S": "Kim Sang-kyung Oh Na-ra Tang Jun-sang Kim Kang-hoon Lee Jae-in"
-            },
-            "Running time": {
-                "S": "60–86 minutes"
-            },
-            "Original release": {
-                "S": "May 31 – August 9, 2021"
-            },
-            "id": {
-                "S": "966"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "16 (list of episodes)"
             }
         }
     },
@@ -29732,34 +25198,6 @@
     {
         "M": {
             "name": {
-                "S": "Romance"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama Romance Comedy"
-            },
-            "Starring": {
-                "S": "Kim Jaewon Kim Ha-neul"
-            },
-            "Original release": {
-                "S": "May 8 – June 27, 2002"
-            },
-            "id": {
-                "S": "994"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Romance Is a Bonus Book"
             },
             "imgUrl": {
@@ -29813,31 +25251,6 @@
             },
             "No. of episodes": {
                 "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Romance Zero"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Lee Tae-sung Kangin Lee Da-in Kim Hee-won Jay Kim Lee Kyung-eun"
-            },
-            "Original release": {
-                "S": "February 14 – May 23, 2009"
-            },
-            "id": {
-                "S": "997"
-            },
-            "rating": {
-                "S": "8"
-            },
-            "No. of episodes": {
-                "S": "16"
             }
         }
     },
@@ -30170,31 +25583,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Ruler of Your Own World"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Ruler_of_Your_Own_World_TV_poster.jpeg/250px-Ruler_of_Your_Own_World_TV_poster.jpeg"
-            },
-            "Starring": {
-                "S": "Yang Dong-geun Lee Na-young Gong Hyo-jin Lee Dong-gun"
-            },
-            "Original release": {
-                "S": "July 3 – September 5, 2002"
-            },
-            "id": {
-                "S": "1009"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "20"
             }
         }
     },
@@ -30542,34 +25930,6 @@
     {
         "M": {
             "name": {
-                "S": "Sassy Girl Chun-hyang"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/8/81/Delightful_Girl_Choon-Hyang.jpg"
-            },
-            "Starring": {
-                "S": "Han Chae-young Jae Hee Uhm Tae-woong Park Si-eun"
-            },
-            "Running time": {
-                "S": "Mondays and Tuesdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "January 3 – March 1, 2005"
-            },
-            "id": {
-                "S": "1021"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "17"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Save Me"
             },
             "imgUrl": {
@@ -30663,56 +26023,6 @@
     {
         "M": {
             "name": {
-                "S": "Save the Last Dance for Me"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Melodrama Romance"
-            },
-            "Starring": {
-                "S": "Eugene Ji Sung Ryu Soo-young Lee Bo-young"
-            },
-            "Running time": {
-                "S": "60 minutes"
-            },
-            "Original release": {
-                "S": "October 23, 2004 – January 2, 2005"
-            },
-            "id": {
-                "S": "1025"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Say It with Your Eyes"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png"
-            },
-            "id": {
-                "S": "1026"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Scent of a Woman"
             },
             "imgUrl": {
@@ -30735,37 +26045,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "School"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Coming-of-age Teen drama"
-            },
-            "Starring": {
-                "S": "See below"
-            },
-            "Running time": {
-                "S": "60 mins."
-            },
-            "Original release": {
-                "S": "February 22, 1999 – present"
-            },
-            "id": {
-                "S": "1028"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "220 +1 special"
             }
         }
     },
@@ -31045,31 +26324,6 @@
             },
             "No. of episodes": {
                 "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Secret"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Kim Ha-neul Ha Ji-won Ryu Si-won Kim Min-jong"
-            },
-            "Original release": {
-                "S": "September 13 – November 9, 2000"
-            },
-            "id": {
-                "S": "1038"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "18"
             }
         }
     },
@@ -32022,93 +27276,6 @@
     {
         "M": {
             "name": {
-                "S": "Sin Don"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Historical Political"
-            },
-            "Starring": {
-                "S": "Son Chang-min Jeong Bo-seok Seo Ji-hye Oh Man-seok Kang Moon-young"
-            },
-            "Running time": {
-                "S": "60 minutes (1 hour)"
-            },
-            "Original release": {
-                "S": "September 24, 2005"
-            },
-            "id": {
-                "S": "1070"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "61"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Single Dad in Love"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/f/f9/Single_Dad_in_Love-poster.jpg"
-            },
-            "Starring": {
-                "S": "Oh Ji-ho Huh E-jae Kang Sung-yeon"
-            },
-            "Running time": {
-                "S": "60 minutes Mondays and Tuesdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "February 18 – April 8, 2008"
-            },
-            "id": {
-                "S": "1071"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Sisters of the Sea"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama Romance"
-            },
-            "Starring": {
-                "S": "Go Jung-min Lee Yoon-ji"
-            },
-            "Original release": {
-                "S": "August 1, 2005 – January 27, 2006"
-            },
-            "id": {
-                "S": "1072"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "155"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Sisters-in-Law"
             },
             "imgUrl": {
@@ -32267,37 +27434,6 @@
                 "S": "Smile Again"
             },
             "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance, Drama"
-            },
-            "Starring": {
-                "S": "Kim Hee-sun Lee Dong-gun Lee Jin-wook"
-            },
-            "Running time": {
-                "S": "60 minutes Wednesdays and Thursdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "May 17 – July 6, 2006"
-            },
-            "id": {
-                "S": "1078"
-            },
-            "rating": {
-                "S": "6"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Smile Again"
-            },
-            "imgUrl": {
                 "S": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png"
             },
             "Genre": {
@@ -32326,37 +27462,6 @@
     {
         "M": {
             "name": {
-                "S": "Smile, Mom"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama Romance Family Erotica Drama"
-            },
-            "Starring": {
-                "S": "Lee Mi-sook Park Won-sook Ji Soo-won Yoon Jung-hee Lee Jae-hwang Go Eun-mi Kang Min-kyung Im Ye-jin Kim Yong-gun Kim Jin-woo Seo Jun-young"
-            },
-            "Running time": {
-                "S": "Saturdays and Sundays at 20:50 (KST)"
-            },
-            "Original release": {
-                "S": "6 November 2010 – 24 April 2011"
-            },
-            "id": {
-                "S": "1080"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "50"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Smile, You"
             },
             "imgUrl": {
@@ -32379,34 +27484,6 @@
             },
             "No. of episodes": {
                 "S": "45"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Snow Flower"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/Snow_Flower_%28TV_series%29-poster.jpg/250px-Snow_Flower_%28TV_series%29-poster.jpg"
-            },
-            "Starring": {
-                "S": "Kim Hee-ae Go Ara Lee Jae-ryong Kim Kibum"
-            },
-            "Running time": {
-                "S": "60 minutes Mondays and Tuesdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "November 20, 2006 – January 9, 2007"
-            },
-            "id": {
-                "S": "1082"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "16"
             }
         }
     },
@@ -32537,34 +27614,6 @@
     {
         "M": {
             "name": {
-                "S": "Somebody"
-            },
-            "imgUrl": {
-                "S": "http://localhost:4800/img"
-            },
-            "Genre": {
-                "S": "Thriller Drama"
-            },
-            "Starring": {
-                "S": "Kim Young-kwang Kang Hae-rim Kim Yong-ji Kim Soo-yeon"
-            },
-            "Original release": {
-                "S": "2022"
-            },
-            "id": {
-                "S": "1087"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Someday"
             },
             "imgUrl": {
@@ -32646,34 +27695,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Something About Us"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance Slice of Life"
-            },
-            "Starring": {
-                "S": "Seo Kang-joon"
-            },
-            "Original release": {
-                "S": "TBA"
-            },
-            "id": {
-                "S": "1091"
-            },
-            "rating": {
-                "S": "9"
-            },
-            "No. of episodes": {
-                "S": "undefined"
             }
         }
     },
@@ -33310,31 +28331,6 @@
     {
         "M": {
             "name": {
-                "S": "Star in My Heart"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Korean_TV_drama-Star_in_My_Heart-01.jpg/250px-Korean_TV_drama-Star_in_My_Heart-01.jpg"
-            },
-            "Starring": {
-                "S": "Choi Jin-sil Ahn Jae-wook Cha In-pyo"
-            },
-            "Original release": {
-                "S": "10 March – 29 April 1997"
-            },
-            "id": {
-                "S": "1113"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Stars Falling from the Sky"
             },
             "imgUrl": {
@@ -33912,53 +28908,6 @@
     {
         "M": {
             "name": {
-                "S": "Super Junior Unbelievable Story"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Lee Sung-min Leeteuk"
-            },
-            "id": {
-                "S": "1133"
-            },
-            "rating": {
-                "S": "2"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Super Rookie"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Super_Rookie_TV_poster.jpeg/250px-Super_Rookie_TV_poster.jpeg"
-            },
-            "Starring": {
-                "S": "Eric Mun Han Ga-in Oh Ji-ho Lee So-yeon"
-            },
-            "Original release": {
-                "S": "March 23 – May 26, 2005"
-            },
-            "id": {
-                "S": "1134"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Surgeon Bong Dal-hee"
             },
             "imgUrl": {
@@ -34074,34 +29023,6 @@
             },
             "rating": {
                 "S": "2"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Sweet 18"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Sweet18poster.jpg/250px-Sweet18poster.jpg"
-            },
-            "Starring": {
-                "S": "Han Ji-hye Lee Dong-gun"
-            },
-            "Running time": {
-                "S": "Mondays and Tuesdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "January 19 – March 9, 2004"
-            },
-            "id": {
-                "S": "1139"
-            },
-            "rating": {
-                "S": "1"
             },
             "No. of episodes": {
                 "S": "16"
@@ -34598,31 +29519,6 @@
     {
         "M": {
             "name": {
-                "S": "Tamra, the Island"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Tamra_the_Island_2009.jpg/250px-Tamra_the_Island_2009.jpg"
-            },
-            "Starring": {
-                "S": "Seo Woo Im Joo-hwan Pierre Deporte"
-            },
-            "Original release": {
-                "S": "August 8 – September 27, 2009"
-            },
-            "id": {
-                "S": "1156"
-            },
-            "rating": {
-                "S": "2"
-            },
-            "No. of episodes": {
-                "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Tasty Life"
             },
             "imgUrl": {
@@ -34893,37 +29789,6 @@
             },
             "No. of episodes": {
                 "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Temptation of an Angel"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Melodrama Suspense Erotica Drama"
-            },
-            "Starring": {
-                "S": "Bae Soo-bin Lee So-yeon Kim Tae-hyun Hong Soo-hyun"
-            },
-            "Running time": {
-                "S": "Monday & Tuesday 20:55 (KST)"
-            },
-            "Original release": {
-                "S": "October 12 – December 22, 2009"
-            },
-            "id": {
-                "S": "1166"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "21"
             }
         }
     },
@@ -35414,34 +30279,6 @@
     {
         "M": {
             "name": {
-                "S": "The Clinic for Married Couples: Love and War"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Family Erotica Domestic"
-            },
-            "Running time": {
-                "S": "70 minutes"
-            },
-            "Original release": {
-                "S": "October 1999 – April 17, 2009"
-            },
-            "id": {
-                "S": "1183"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "479 (season 1) 124 (season 2)"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "The Cursed"
             },
             "imgUrl": {
@@ -35830,37 +30667,6 @@
             },
             "rating": {
                 "S": "5"
-            },
-            "No. of episodes": {
-                "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "The Fugitive: Plan B"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Action, Romance, Comedy"
-            },
-            "Starring": {
-                "S": "Rain Lee Na-young Lee Jung-jin Yoon Jin-seo Daniel Henney"
-            },
-            "Running time": {
-                "S": "60 minutes on Wednesdays and Thursdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "September 29, 2010 – 8 December 2010"
-            },
-            "id": {
-                "S": "1197"
-            },
-            "rating": {
-                "S": "1"
             },
             "No. of episodes": {
                 "S": "20"
@@ -36450,34 +31256,6 @@
     {
         "M": {
             "name": {
-                "S": "The Idolmaster KR"
-            },
-            "imgUrl": {
-                "S": "http://localhost:4800/img"
-            },
-            "Genre": {
-                "S": "Drama"
-            },
-            "Starring": {
-                "S": "Kim Sori Heo Youngjoo Yukika Teramoto Kwon Haseo Lee Jeewon Mint Lee Yeeun Cha Jiseul Lee Suji Chun Jane Jung Taeri Sung Hoon Park Chul-min Kang Yeseul Lee Ka-eun"
-            },
-            "Original release": {
-                "S": "April 28 (SBS Plus, SBS funE, SBS MTV) – October 6, 2017"
-            },
-            "id": {
-                "S": "1217"
-            },
-            "rating": {
-                "S": "8"
-            },
-            "No. of episodes": {
-                "S": "24"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "The Innocent Man"
             },
             "imgUrl": {
@@ -36503,37 +31281,6 @@
             },
             "No. of episodes": {
                 "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "The Jingbirok: A Memoir of Imjin War"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Historical War"
-            },
-            "Starring": {
-                "S": "Kim Sang-joong Kim Tae-woo"
-            },
-            "Running time": {
-                "S": "45-55 minutes"
-            },
-            "Original release": {
-                "S": "February 14 – August 2, 2015"
-            },
-            "id": {
-                "S": "1219"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "50"
             }
         }
     },
@@ -36664,37 +31411,6 @@
     {
         "M": {
             "name": {
-                "S": "The King and the Queen"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Historical Political thriller"
-            },
-            "Starring": {
-                "S": "see below"
-            },
-            "Running time": {
-                "S": "45-65 minutes"
-            },
-            "Original release": {
-                "S": "6 June 1998"
-            },
-            "id": {
-                "S": "1224"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "186"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "The King in Love"
             },
             "imgUrl": {
@@ -36807,34 +31523,6 @@
             },
             "No. of episodes": {
                 "S": "60"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "The King of Pigs"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/TVING-The_King_of_Pigs.jpg/250px-TVING-The_King_of_Pigs.jpg"
-            },
-            "Starring": {
-                "S": "Kim Dong-wook Kim Sung-kyu Chae Jung-an"
-            },
-            "Running time": {
-                "S": "40 minutes"
-            },
-            "Original release": {
-                "S": "March 18 – April 22, 2022"
-            },
-            "id": {
-                "S": "1229"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "12"
             }
         }
     },
@@ -37272,62 +31960,6 @@
     {
         "M": {
             "name": {
-                "S": "The Light in Your Eyes"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/The_Light_in_Your_Eyes.jpg/250px-The_Light_in_Your_Eyes.jpg"
-            },
-            "Starring": {
-                "S": "Han Ji-min Kim Hye-ja Nam Joo-hyuk Son Ho-jun"
-            },
-            "Running time": {
-                "S": "60 minutes"
-            },
-            "Original release": {
-                "S": "February 11 – March 19, 2019"
-            },
-            "id": {
-                "S": "1244"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "12"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "The Love Is Coming"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Family"
-            },
-            "Starring": {
-                "S": "Kim Ji-young Lee Min-young Go Se-won Lee Hoon"
-            },
-            "Original release": {
-                "S": "June 20 – December 13, 2016"
-            },
-            "id": {
-                "S": "1245"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "122"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "The Lover"
             },
             "imgUrl": {
@@ -37477,34 +32109,6 @@
     {
         "M": {
             "name": {
-                "S": "The Miracle"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/The_miracle.jpg/250px-The_miracle.jpg"
-            },
-            "Starring": {
-                "S": "Taemin Minah Jang Wooyoung Son Na-eun"
-            },
-            "Running time": {
-                "S": "16 minutes"
-            },
-            "Original release": {
-                "S": "December 29, 2013"
-            },
-            "id": {
-                "S": "1251"
-            },
-            "rating": {
-                "S": "9"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "The Miracle We Met"
             },
             "imgUrl": {
@@ -37620,37 +32224,6 @@
             },
             "No. of episodes": {
                 "S": "8"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "The Musical"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Musical, Romance, Drama"
-            },
-            "Starring": {
-                "S": "Ku Hye-sun Choi Daniel Park Ki-woong Ock Joo-hyun"
-            },
-            "Running time": {
-                "S": "Fridays at 21:55"
-            },
-            "Original release": {
-                "S": "2 September – 23 December 2011"
-            },
-            "id": {
-                "S": "1256"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "15"
             }
         }
     },
@@ -37812,34 +32385,6 @@
     {
         "M": {
             "name": {
-                "S": "The Police Station Next to the Fire Station"
-            },
-            "imgUrl": {
-                "S": "http://localhost:4800/img"
-            },
-            "Starring": {
-                "S": "Kim Rae-won Son Ho-jun Gong Seung-yeon"
-            },
-            "Running time": {
-                "S": "70 minutes"
-            },
-            "Original release": {
-                "S": "2022"
-            },
-            "id": {
-                "S": "1262"
-            },
-            "rating": {
-                "S": "6"
-            },
-            "No. of episodes": {
-                "S": "24"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "The President"
             },
             "imgUrl": {
@@ -37927,37 +32472,6 @@
             },
             "No. of episodes": {
                 "S": "12 (+1 special)"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "The Promise"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Melodrama Revenge"
-            },
-            "Starring": {
-                "S": "Lee Yoo-ri Seo Jun-young Park Ha-na Song Jong-ho"
-            },
-            "Running time": {
-                "S": "35 minutes"
-            },
-            "Original release": {
-                "S": "February 1 – June 24, 2016"
-            },
-            "id": {
-                "S": "1266"
-            },
-            "rating": {
-                "S": "6"
-            },
-            "No. of episodes": {
-                "S": "102"
             }
         }
     },
@@ -38079,34 +32593,6 @@
             },
             "No. of episodes": {
                 "S": "17"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "The Reputable Family"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/The_Reputable_Family-poster.jpg/250px-The_Reputable_Family-poster.jpg"
-            },
-            "Starring": {
-                "S": "Cha In-pyo Han Go-eun Kim Sung-min Lee Hee-do"
-            },
-            "Running time": {
-                "S": "Saturdays and Sundays at 21:40 (KST)"
-            },
-            "Original release": {
-                "S": "January 2 – February 21, 2010"
-            },
-            "id": {
-                "S": "1271"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "16"
             }
         }
     },
@@ -38299,34 +32785,6 @@
     {
         "M": {
             "name": {
-                "S": "The Running Mates: Human Rights"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/2/2b/The_Running_Mates.jpg"
-            },
-            "Starring": {
-                "S": "Lee Yo-won Choi Gwi-hwa"
-            },
-            "Running time": {
-                "S": "60 minutes"
-            },
-            "Original release": {
-                "S": "September 18 – October 31, 2019"
-            },
-            "id": {
-                "S": "1278"
-            },
-            "rating": {
-                "S": "8"
-            },
-            "No. of episodes": {
-                "S": "14"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "The Scandal"
             },
             "imgUrl": {
@@ -38510,31 +32968,6 @@
     {
         "M": {
             "name": {
-                "S": "The Secret Lovers"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Han Ji-hye Kim Suk-hoon Song Seon-mi Kwon Oh-joong"
-            },
-            "Original release": {
-                "S": "August 29 – November 1, 2005"
-            },
-            "id": {
-                "S": "1285"
-            },
-            "rating": {
-                "S": "2"
-            },
-            "No. of episodes": {
-                "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "The Secret of Birth"
             },
             "imgUrl": {
@@ -38557,37 +32990,6 @@
             },
             "No. of episodes": {
                 "S": "18"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "The Secret of My Love"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Family Drama"
-            },
-            "Starring": {
-                "S": "Song Chang-eui Kang Se-jung Kim Da-hyun Park Jung-ah"
-            },
-            "Running time": {
-                "S": "35 min"
-            },
-            "Original release": {
-                "S": "September 18, 2017 – February 9, 2018"
-            },
-            "id": {
-                "S": "1287"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "100"
             }
         }
     },
@@ -38833,37 +33235,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "The Story of Kang-goo"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance, Drama"
-            },
-            "Starring": {
-                "S": "Lee Dong-wook Park Joo-mi Shin Dong-woo"
-            },
-            "Running time": {
-                "S": "Saturday & Sunday at 20:45 (KST)"
-            },
-            "Original release": {
-                "S": "March 29 – March 30, 2014"
-            },
-            "id": {
-                "S": "1296"
-            },
-            "rating": {
-                "S": "8"
-            },
-            "No. of episodes": {
-                "S": "2"
             }
         }
     },
@@ -39835,25 +34206,6 @@
     {
         "M": {
             "name": {
-                "S": "Three Friends"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "id": {
-                "S": "1329"
-            },
-            "rating": {
-                "S": "6"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Three Sisters"
             },
             "imgUrl": {
@@ -40093,31 +34445,6 @@
     {
         "M": {
             "name": {
-                "S": "Today's Webtoon"
-            },
-            "imgUrl": {
-                "S": "http://localhost:4800/img"
-            },
-            "Starring": {
-                "S": "Kim Se-jeong Nam Yoon-su Choi Daniel"
-            },
-            "Original release": {
-                "S": "July 29, 2022"
-            },
-            "id": {
-                "S": "1338"
-            },
-            "rating": {
-                "S": "8"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Toji, the Land"
             },
             "imgUrl": {
@@ -40149,37 +34476,6 @@
     {
         "M": {
             "name": {
-                "S": "Tokyo Sun Shower"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance"
-            },
-            "Starring": {
-                "S": "Kim Sa-rang Kim Tae-woo"
-            },
-            "Running time": {
-                "S": "Mondays and Tuesdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "June 2 – June 10, 2008"
-            },
-            "id": {
-                "S": "1340"
-            },
-            "rating": {
-                "S": "2"
-            },
-            "No. of episodes": {
-                "S": "4"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Tomorrow"
             },
             "imgUrl": {
@@ -40205,34 +34501,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Tomorrow Boy"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "N Kang Min-ah Yoo Se-hyung Moon Ji-in"
-            },
-            "Running time": {
-                "S": "18 minutes"
-            },
-            "Original release": {
-                "S": "March 28 – April 11, 2016"
-            },
-            "id": {
-                "S": "1342"
-            },
-            "rating": {
-                "S": "0"
-            },
-            "No. of episodes": {
-                "S": "5"
             }
         }
     },
@@ -40540,34 +34808,6 @@
     {
         "M": {
             "name": {
-                "S": "Trio"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama"
-            },
-            "Starring": {
-                "S": "Ryu Jin Son Ji-chang Lee Jung-jin Kim So-yeon Hwang In-young Jung Da-bin"
-            },
-            "Original release": {
-                "S": "November 6, 2002 – January 2, 2003"
-            },
-            "id": {
-                "S": "1353"
-            },
-            "rating": {
-                "S": "8"
-            },
-            "No. of episodes": {
-                "S": "17"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Triple"
             },
             "imgUrl": {
@@ -40599,34 +34839,6 @@
     {
         "M": {
             "name": {
-                "S": "Trolley"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Mystery Melodrama"
-            },
-            "Starring": {
-                "S": "Kim Hyun-joo Park Hee-soon"
-            },
-            "Original release": {
-                "S": "2022"
-            },
-            "id": {
-                "S": "1355"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "True Beauty"
             },
             "imgUrl": {
@@ -40652,31 +34864,6 @@
             },
             "No. of episodes": {
                 "S": "16 (list of episodes)"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "True Sword Battle"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Starring": {
-                "S": "Doh Kyung-soo Lee Se-hee"
-            },
-            "Original release": {
-                "S": "2022"
-            },
-            "id": {
-                "S": "1357"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "undefined"
             }
         }
     },
@@ -41173,34 +35360,6 @@
     {
         "M": {
             "name": {
-                "S": "Unframed"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Drama"
-            },
-            "Starring": {
-                "S": "See list"
-            },
-            "Original release": {
-                "S": "December 8, 2021"
-            },
-            "id": {
-                "S": "1374"
-            },
-            "rating": {
-                "S": "5"
-            },
-            "No. of episodes": {
-                "S": "4"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Unkind Ladies"
             },
             "imgUrl": {
@@ -41288,34 +35447,6 @@
             },
             "No. of episodes": {
                 "S": "140"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Until the Azalea Blooms"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Until_the_Azalea_Blooms_title_card.png/250px-Until_the_Azalea_Blooms_title_card.png"
-            },
-            "Starring": {
-                "S": "Yum Jung-ah Yoo Tae-woong Yoon Dong-hwan Park Geun-hyung Jung Dong-hwan Heo Jin"
-            },
-            "Running time": {
-                "S": "70 minutes"
-            },
-            "Original release": {
-                "S": "January 5 – January 27, 1998"
-            },
-            "id": {
-                "S": "1378"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "8"
             }
         }
     },
@@ -41651,34 +35782,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "War of Money"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/War_of_Money-poster.jpg/250px-War_of_Money-poster.jpg"
-            },
-            "Starring": {
-                "S": "Park Shin-yang Park Jin-hee Shin Dong-wook Kim Jung-hwa"
-            },
-            "Running time": {
-                "S": "Wednesdays and Thursdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "May 16 – July 19, 2007"
-            },
-            "id": {
-                "S": "1390"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "20 (16 + 4)"
             }
         }
     },
@@ -42172,37 +36275,6 @@
             },
             "No. of episodes": {
                 "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "West Palace"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Historical"
-            },
-            "Starring": {
-                "S": "Lee Young-ae Kim Kyu-chul Lee Bo-hee"
-            },
-            "Running time": {
-                "S": "65 minutes"
-            },
-            "Original release": {
-                "S": "July 7 – December 26, 1995"
-            },
-            "id": {
-                "S": "1407"
-            },
-            "rating": {
-                "S": "9"
-            },
-            "No. of episodes": {
-                "S": "52"
             }
         }
     },
@@ -42978,34 +37050,6 @@
     {
         "M": {
             "name": {
-                "S": "Will It Snow for Christmas?"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Will_It_Snow_For_Christmas%3F.jpg/250px-Will_It_Snow_For_Christmas%3F.jpg"
-            },
-            "Starring": {
-                "S": "Go Soo Han Ye-seul Song Jong-ho Sunwoo Sun"
-            },
-            "Running time": {
-                "S": "Wednesdays and Thursdays at 21:55 (KST)"
-            },
-            "Original release": {
-                "S": "December 2, 2009 – January 28, 2010"
-            },
-            "id": {
-                "S": "1433"
-            },
-            "rating": {
-                "S": "7"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Witch at Court"
             },
             "imgUrl": {
@@ -43028,34 +37072,6 @@
             },
             "rating": {
                 "S": "5"
-            },
-            "No. of episodes": {
-                "S": "16"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Witch Yoo Hee"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png"
-            },
-            "Starring": {
-                "S": "Han Ga-in Jae Hee Kim Jeong-hoon Dennis Oh Jeon Hye-bin"
-            },
-            "Running time": {
-                "S": "Wednesday & Thursday 21:55"
-            },
-            "Original release": {
-                "S": "March 21 – May 10, 2007"
-            },
-            "id": {
-                "S": "1435"
-            },
-            "rating": {
-                "S": "0"
             },
             "No. of episodes": {
                 "S": "16"
@@ -43152,34 +37168,6 @@
             },
             "No. of episodes": {
                 "S": "32"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Woman of Matchless Beauty, Park Jung-geum"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Park_Jung-geum_TV_poster.jpeg/250px-Park_Jung-geum_TV_poster.jpeg"
-            },
-            "Starring": {
-                "S": "Bae Jong-ok Son Chang-min Kim Min-jong Han Go-eun"
-            },
-            "Running time": {
-                "S": "60 minutes"
-            },
-            "Original release": {
-                "S": "February 2 – August 3, 2008"
-            },
-            "id": {
-                "S": "1439"
-            },
-            "rating": {
-                "S": "6"
-            },
-            "No. of episodes": {
-                "S": "52"
             }
         }
     },
@@ -43496,31 +37484,6 @@
     {
         "M": {
             "name": {
-                "S": "Wuri's Family"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Running time": {
-                "S": "55 minute"
-            },
-            "Original release": {
-                "S": "November 9, 2001 – March 29, 2002"
-            },
-            "id": {
-                "S": "1450"
-            },
-            "rating": {
-                "S": "9"
-            },
-            "No. of episodes": {
-                "S": "20"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "XX"
             },
             "imgUrl": {
@@ -43574,37 +37537,6 @@
             },
             "No. of episodes": {
                 "S": "100"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Yeonnam-dong 539"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Yeonnam-dong_539.jpg/250px-Yeonnam-dong_539.jpg"
-            },
-            "Genre": {
-                "S": "Slice-of-life"
-            },
-            "Starring": {
-                "S": "see below"
-            },
-            "Running time": {
-                "S": "60 mins"
-            },
-            "Original release": {
-                "S": "January 10 – March 28, 2018"
-            },
-            "id": {
-                "S": "1453"
-            },
-            "rating": {
-                "S": "3"
-            },
-            "No. of episodes": {
-                "S": "undefined"
             }
         }
     },
@@ -43729,34 +37661,6 @@
             },
             "No. of episodes": {
                 "S": "111"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "You Are My Destiny"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Youaremydestiny.jpg/250px-Youaremydestiny.jpg"
-            },
-            "Starring": {
-                "S": "Im Yoon-ah Park Jae-jung Lee Ji-hoon Gong Hyun-joo"
-            },
-            "Running time": {
-                "S": "30 minutes"
-            },
-            "Original release": {
-                "S": "May 5, 2008 – January 9, 2009"
-            },
-            "id": {
-                "S": "1458"
-            },
-            "rating": {
-                "S": "8"
-            },
-            "No. of episodes": {
-                "S": "178"
             }
         }
     },
@@ -44067,37 +37971,6 @@
     {
         "M": {
             "name": {
-                "S": "You're Only Mine"
-            },
-            "imgUrl": {
-                "S": "http://192.168.0.120:4800/img"
-            },
-            "Genre": {
-                "S": "Romance Drama"
-            },
-            "Starring": {
-                "S": "Lee Min-young Jung Sung-hwan Song Jae-hee Han Da-min"
-            },
-            "Running time": {
-                "S": "Mondays to Fridays at 08:30 (KST)"
-            },
-            "Original release": {
-                "S": "January 20 – July 18, 2014"
-            },
-            "id": {
-                "S": "1469"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "121"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
                 "S": "Young Lady and Gentleman"
             },
             "imgUrl": {
@@ -44247,59 +38120,6 @@
             },
             "No. of episodes": {
                 "S": "22"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Your Scene"
-            },
-            "imgUrl": {
-                "S": "http://localhost:4800/img"
-            },
-            "Starring": {
-                "S": "Heo Yeong-lan Kim Chul-ki Mun-su Im Ye-won"
-            },
-            "Running time": {
-                "S": "Monday to Friday, 30 mins"
-            },
-            "Original release": {
-                "S": "April 30 – November 9, 2007"
-            },
-            "id": {
-                "S": "1475"
-            },
-            "rating": {
-                "S": "4"
-            },
-            "No. of episodes": {
-                "S": "undefined"
-            }
-        }
-    },
-    {
-        "M": {
-            "name": {
-                "S": "Youth"
-            },
-            "imgUrl": {
-                "S": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Symbol_category_class.svg/16px-Symbol_category_class.svg.png"
-            },
-            "Genre": {
-                "S": "Drama"
-            },
-            "Starring": {
-                "S": "Seo Ji-hoon Noh Jong-hyun Ahn Ji-ho Seo Young-joo Kim Yoon-woo Jung Woo-jin Jeon Jin-seo"
-            },
-            "id": {
-                "S": "1476"
-            },
-            "rating": {
-                "S": "1"
-            },
-            "No. of episodes": {
-                "S": "undefined"
             }
         }
     },

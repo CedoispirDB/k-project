@@ -6,7 +6,7 @@ function Series({ name, imgUrl}) {
   
     return (
         <>
-            <li className='cards__items' >
+            <li className='series__items' >
                 <Link to={'/info?name=' + name} className='serie_link'>
                     <figure>
                         <img src={imgUrl} alt={name + "_img"} className='serie_img'></img>

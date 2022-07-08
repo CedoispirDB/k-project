@@ -9,7 +9,7 @@
     top: 0;
     z-index: 999;
     /* overflow: hidden ; */
-    
+
 }
 
 .navbar-container {
@@ -94,7 +94,7 @@
         display: block;
     }
 
-    
+
     .NavbarItems {
         position: relative;
     }
@@ -112,7 +112,7 @@
     }
 
     .nav-menu.active {
-        background: #242222;
+        background: /*#242222*/ linear-gradient(135deg, rgb(8, 100, 109) 0%, rgb(135, 8, 75) 100%);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -128,7 +128,7 @@
 
     .nav-links:hover {
         background-color: #fff;
-        color: #242424;
+        color: #242222;
         border-radius: 0;
     }
 
@@ -177,5 +177,21 @@
 
     .nav-item:last-of-type {
         margin-bottom: auto;
-      }
+    }
+}
+
+@media only screen and (max-height:572px) {
+    .nav-menu {
+        height: 100vh;
+    }
+
+    .nav-item {
+        height: 48px;
+        margin-top: 4px;
+    }
+
+    .nav-links {
+        padding: 0;
+        padding-top: 14px;
+    }
 }

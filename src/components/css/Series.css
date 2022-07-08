@@ -1,4 +1,4 @@
-.cards {
+.series {
     padding: 0rem;
     background: linear-gradient(135deg, rgb(8, 100, 109) 0%, rgb(135, 8, 75) 100%);
     /* height: calc(100vh - 80px); */
@@ -13,7 +13,7 @@ h1 {
     text-align: center;
 }
 
-.cards__container {
+.series__container {
     /* display: flex;
     flex-flow: column; */
     align-items: center;
@@ -22,7 +22,7 @@ h1 {
     margin: 0 auto;
 }
 
-.cards__wrapper {
+.series__wrapper {
     position: relative;
     /* margin: 50px 0 45px; */
     padding: 25px;
@@ -30,7 +30,7 @@ h1 {
     padding-bottom: 47px;
 }
 
-.cards__items {
+.series__items {
     margin-bottom: 10px;
     width: 250px;
     height: fit-content;
@@ -111,24 +111,6 @@ h1 {
     line-height: 24px;
 }
 
-/* @media only screen and (min-width: 1200px) {
-    .content__blog__container {
-        width: 84%;
-    }
-} */
-
-/* @media only screen and (min-width: 1024px) {
-    .cards__items {
-        display: flex;
-    }
-} */
-/*
-@media only screen and (max-width: 1024px) {
-    .cards__item {
-        margin-bottom: 2rem;
-    }
-} */
-
 .serie_img {
     width: inherit;
     height: 400px;
@@ -180,7 +162,6 @@ figure {
 
 
 @media only screen and (max-width: 1152px) {
-    .cards__container {}
 
     .grid_container {
         grid-template-columns: auto auto auto;
@@ -192,7 +173,7 @@ figure {
         /* grid-template-columns: auto auto; */
     }
 
-    .cards__items {
+    .series__items {
         width: 230px;
     }
 
@@ -203,7 +184,7 @@ figure {
         /* grid-template-columns:auto; */
     }
 
-    .cards__items {
+    .series__items {
         width: 214px;
     }
 
@@ -215,7 +196,7 @@ figure {
         grid-template-columns: auto auto;
     }
 
-    .cards__items {
+    .series__items {
         width: 265px;
     }
 
@@ -223,7 +204,7 @@ figure {
 
 @media only screen and (max-width: 450px) {
 
-    .cards__items {
+    .series__items {
         width: 192px;
     }
 
@@ -231,7 +212,7 @@ figure {
 
 @media only screen and (max-width: 593px) {
 
-    .cards__items {
+    .series__items {
         width: 250px;
     }
 }
@@ -239,7 +220,7 @@ figure {
 @media only screen and (max-width: 601px) {
 
 
-    .cards__items {
+    .series__items {
         width: 191px;
         height: 334px;
     }
@@ -252,7 +233,7 @@ figure {
 
 @media only screen and (max-width: 414px) {
 
-    .cards__items {
+    .series__items {
         width: 170px;
         height: 320px;
     }
@@ -263,7 +244,7 @@ figure {
 }
 
 @media only screen and (max-height: 597px) {
-    .cards__items {
+    .series__items {
         height: 275px;
     }
 
@@ -271,7 +252,7 @@ figure {
         height: 85%;
     }
 
-    .cards__wrapper {
+    .series__wrapper {
         padding-top: 26px;
     }
 

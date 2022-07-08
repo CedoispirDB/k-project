@@ -7,10 +7,9 @@ import Footer from '../Footer';
 
 
 
-function Profile({ setSignedIn, setLocalStorage, getUserData, isSigned, userData }) {
+function Profile({ setSignedIn, setLocalStorage, getUserData, isSigned, userData}) {
 
-
-
+ 
     return (
         <>
 
