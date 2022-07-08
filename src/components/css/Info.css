@@ -58,7 +58,7 @@
     width: fit-content;
     height: fit-content;
     margin: 10px;
-
+    padding-left: 6px;
 }
 
 .options_select {
