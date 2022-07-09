@@ -8,6 +8,7 @@ function Search({ series }) {
 
 
     const navigate = useNavigate();
+    
 
     const [searchInput, setSearchInput] = useState();
     const [show, setShow] = useState(false);
@@ -16,36 +17,38 @@ function Search({ series }) {
 
     function handleChange(event) {
         setShow(false);
+        
         setSearchInput(event.target.value);
     }
 
     function search(event) {
         if (event.keyCode === 13) {
+            let input = searchInput.replace(/\ $/, "");
             let found = '';
             for(var i = 0; i < series.length; i++) {
                 let serie = series[i].M.name.S;
-                if(serie === searchInput) {
+                if(serie === input) {
                     found = serie;
                     break;
                 } 
 
-                if(serie.toLowerCase() === searchInput.toLowerCase()) {
+                if(serie.toLowerCase() === input.toLowerCase()) {
                     found = serie;
                     break;
                 }
 
-                if(serie.replace(/[^a-z0-9]/gi, ' ') === searchInput) {
+                if(serie.replace(/[^a-z0-9]/gi, ' ') === input) {
                     found = serie;
                     break;
                 }
 
-                if(serie.replace(/[^a-z0-9]/gi, ' ').toLowerCase() === searchInput.toLowerCase()) {
+                if(serie.replace(/[^a-z0-9]/gi, ' ').toLowerCase() === input.toLowerCase()) {
                     found = serie;
                     break;
                 }
             }
             if (found !== '') {
-                navigate(`/info?name=${found}`, { replace: true })
+                navigate(`/info?name=${found}`, { replace: false })
             } else {
                 setShow(true);
             }

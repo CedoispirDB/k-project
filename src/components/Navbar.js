@@ -42,6 +42,8 @@ export default function Navbar({ name, signedIn}) {
     const closeMobileMenu = () => { 
         setClick(false) 
         window.scrollTo(0, 0);
+        document.body.style.overflow = "";
+
     };
 
     let title = "Profile";

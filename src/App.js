@@ -188,15 +188,11 @@ function App() {
                 />
               }
               />
-            </>
+            <Route path="/*" element={  <Navigate to="/" />}/>
 
+            </>
           }
           <Route path='/sign-up' exact element={<SignUp isSignedIn={signedIn} setSignedIn={setSignedIn} usernames={usernames} setLocalStorage={setLocalStorage} />} />
-          <Route path="*" element={  <Navigate to="/" />}>
-          
-          
-            
-          </Route>
         </Routes>
         {loading &&
           <>

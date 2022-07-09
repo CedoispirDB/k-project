@@ -13,7 +13,7 @@ function SignIn({  setSignedIn, setLocalStorage, getUserData }) {
     const [show, setShow] = useState(false);
     const [msg, setMsg] = useState();
 
-
+    const [display, setDisplay] = useState();
 
 
     // Handle user input for username
@@ -30,27 +30,30 @@ function SignIn({  setSignedIn, setLocalStorage, getUserData }) {
 
 
     async function handleSignIn() {
+        let name = nameInput.replace(/\ $/, "");
+        let pass = passInput.replace(/\ $/, "");
 
         if(show) {
             return;
         }
-        if (nameInput === undefined) {
+        if (name === undefined) {
             setShow(true);
             setMsg("Please type an username")
             return;
         }
 
-        if (passInput === undefined) {
+        if (pass === undefined) {
             setShow(true);
             setMsg("Please type a password")
             return;
         }
-        getUserData(nameInput, passInput).then(resp => {
+        getUserData(name, pass).then(resp => {
             if (resp !== undefined && Object.keys(resp.data).length > 0) {
                 setSignedIn(true);
-                setLocalStorage(nameInput, passInput, resp.data.response.series_data.M);
+                setLocalStorage(name, pass, resp.data.response.series_data.M);
                 navigate('/profile', { replace: true });
             } else {
+                setDisplay(JSON.stringify(resp));
                 setShow(true);
                 setMsg("Username or password incorrect");   
             }
@@ -65,7 +68,7 @@ function SignIn({  setSignedIn, setLocalStorage, getUserData }) {
             <div className='container'>
                 <div className='sign_in_container'>
                     <div className='sign_in_wrapper'>
-                        <h2 className='sign_in_title'>Sign In</h2>
+                        <h2 className='sign_in_title'>{display}</h2>
                         {/* <label type="fname" className='username_label'>Username: </label> */}
                         <input
                             type="text"

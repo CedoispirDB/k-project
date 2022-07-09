@@ -46,29 +46,32 @@ function SignUp({ isSignedIn, setSignedIn, usernames, setLocalStorage}) {
 
 
     function handleSignUp() {
-        if (nameInput === undefined) {
+        let name = nameInput.replace(/\ $/, "");
+        let pass = passInput.replace(/\ $/, "");
+
+        if (name === undefined) {
             setShow(true);
             setMsg("Please type an username")
             return;
         }
 
-        if (passInput === undefined) {
+        if (pass === undefined) {
             setShow(true);
             setMsg("Please type a password")
             return;
         }
 
         usernames = usernames.map(username => {return username.S});
-        if (usernames.includes(nameInput)) {
+        if (usernames.includes(name)) {
             setShow(true);
             setMsg("Username already in use");
             return
         }
 
-        addNewUser(nameInput, passInput);
-        saveUsername(nameInput);
+        addNewUser(name, pass);
+        saveUsername(name);
         setSignedIn(true);
-        setLocalStorage(nameInput, passInput, {
+        setLocalStorage(name, pass, {
             user_series: {"L": []},
             watched: {"S": 0},
             watching: {"S": 0},
@@ -76,13 +79,13 @@ function SignUp({ isSignedIn, setSignedIn, usernames, setLocalStorage}) {
         });
         
 
-        navigate('/', { replace: true })
+        navigate('/', { replace: false })
 
 
     }
 
     function handleBack() {
-        navigate('/profile', { replace: true })
+        navigate('/profile', { replace: false })
     }
 
 

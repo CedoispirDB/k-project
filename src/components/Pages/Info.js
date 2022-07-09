@@ -271,7 +271,7 @@ function Info({ series, userData, signedIn, setUserDataLocal, username, pass }) 
 
   }
 
-  
+
 
 
 
@@ -314,6 +314,7 @@ function Info({ series, userData, signedIn, setUserDataLocal, username, pass }) 
       {currrent_serie_obj !== undefined ?
         <div className='container_info'>
           <h1 className='info_name'>{currrent_serie_obj.name.S}</h1>
+
           <div className='info_container'>
             <img src={currrent_serie_obj.imgUrl.S} alt={currrent_serie_obj.name.S + "_img"} className='info_img'></img>
             <div className='info_details'>
