@@ -31,9 +31,17 @@ export default function Navbar({ name, signedIn}) {
     // }
 
 
-    const handleClick = () => setClick(!click);
+    const handleClick = () => {
+        setClick(!click)
+        if(!click) {
+            document.body.style.overflow = "hidden";
+        } else {
+            document.body.style.overflow = "";
+        }
+    };
     const closeMobileMenu = () => { 
         setClick(false) 
+        window.scrollTo(0, 0);
     };
 
     let title = "Profile";
@@ -46,10 +54,10 @@ export default function Navbar({ name, signedIn}) {
 
     return (
         <>
-            <nav className="navbar">
+            <nav className={click ? "navbar sticky" : "navbar"}>
                 <div className="navbar-container">
                     <Link to="/"  className="navbar-logo" onClick={closeMobileMenu}>
-                        K-Project
+                        K-Cedoispir
                     </Link>
                 
                     <div className="menu-icon" onClick={handleClick}>

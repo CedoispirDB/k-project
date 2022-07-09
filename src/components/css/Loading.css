@@ -1,0 +1,16 @@
+.loading_container {
+    background: linear-gradient(135deg, rgb(8, 100, 109) 0%, rgb(135, 8, 75) 100%);
+    height: calc(100vh - 80px);
+}
+
+.loading_text {
+    color: var(--primary);
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    font-family: mild;
+    font-weight: bold;
+}

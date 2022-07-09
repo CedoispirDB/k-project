@@ -60,7 +60,12 @@ function Search({ series }) {
             <div className='search_bar_container'>
 
                 <input className='search_bar' onKeyDown={search} onChange={handleChange}></input>
-                {show && <div className='error_msg msg'>Serie not found</div>}
+                {show && 
+                    <>
+                        <div className='error_msg msg'>Serie not found <br/>Check the serie's name and try again</div>
+                        <div className='error_msg msg'>It is  also possible we don't have this serie in our database 🥲<br/>We will be working to fix this.<br/></div>
+                    </>
+                }
 
             </div>
 

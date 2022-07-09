@@ -18,9 +18,9 @@ function SignUp({ isSignedIn, setSignedIn, usernames, setLocalStorage}) {
             password: password,
             series_data: {
                 user_series: { "L": [] },
-                watched: { "N": "0" },
-                watching: { "N": "0" },
-                want_to_watch: { "N": "0" }
+                watched: { "S": "0" },
+                watching: { "S": "0" },
+                want_to_watch: { "S": "0" }
             }
     
         })
@@ -58,20 +58,21 @@ function SignUp({ isSignedIn, setSignedIn, usernames, setLocalStorage}) {
             return;
         }
 
-        // if (usernames.includes(nameInput)) {
-        //     setShow(true);
-        //     setMsg("Username already in use");
-        //     return
-        // }
+        usernames = usernames.map(username => {return username.S});
+        if (usernames.includes(nameInput)) {
+            setShow(true);
+            setMsg("Username already in use");
+            return
+        }
 
         addNewUser(nameInput, passInput);
         saveUsername(nameInput);
         setSignedIn(true);
         setLocalStorage(nameInput, passInput, {
             user_series: {"L": []},
-            watched: {"N": 0},
-            watching: {"N": 0},
-            want_to_watch: {"N": 0}
+            watched: {"S": 0},
+            watching: {"S": 0},
+            want_to_watch: {"S": 0}
         });
         
 

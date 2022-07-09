@@ -173,6 +173,7 @@
 
     .info_details {
         margin-top: 85px;
+        margin-left: 3px;
     }
 
 
@@ -193,6 +194,7 @@
 
     .info_form {
         flex-wrap: wrap;
+        margin: 0px;
     }
 
     .options_select {
@@ -200,7 +202,7 @@
     }
 
     .ep_numbers {
-        margin-left: 72px;
+        margin-left: 92px;
         margin-top: 8px;
     }
 

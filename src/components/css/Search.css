@@ -33,5 +33,7 @@
 }
 
 .msg {
-    margin-top: 0px;
+    /* margin-top: 0px; */
+    background-color: black;
+    padding: 10px;
 }

@@ -46,7 +46,6 @@ function SignIn({  setSignedIn, setLocalStorage, getUserData }) {
             return;
         }
         getUserData(nameInput, passInput).then(resp => {
-            console.log("request")
             if (resp !== undefined && Object.keys(resp.data).length > 0) {
                 setSignedIn(true);
                 setLocalStorage(nameInput, passInput, resp.data.response.series_data.M);

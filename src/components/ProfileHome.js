@@ -13,15 +13,16 @@ function ProfileHome({ userData }) {
         window.location.reload(false);
     }
 
-    console.log(userData["user_series"].L);
-    userData["user_series"].L.map(serie => {
-        console.log(serie.M)
-        if (serie.M.status.S === "1") {
-            sum += parseInt(serie.M.total_episodes.S);
-        } else if (serie.M.status.S === "2") {
-            sum += parseInt(serie.M.current_episode.S);
-        }
-    });
+    if (userData !== undefined) {
+        // console.log(userData["user_series"].L);
+        userData["user_series"].L.map(serie => {
+            if (serie.M.status.S === "1") {
+                sum += parseInt(serie.M.total_episodes.S);
+            } else if (serie.M.status.S === "2") {
+                sum += parseInt(serie.M.current_episode.S);
+            }
+        });
+    }
 
     return (
         <div className='profile_container'>
@@ -45,7 +46,7 @@ function ProfileHome({ userData }) {
                     </p>
                     <p className='total_text'>Episodes watched</p>
                 </div>
-                <button className='btn_logout' onClick={logout}>Logout</button>
+                <button className='btn_logout' onClick={logout}>Sign out</button>
             </div>
 
 

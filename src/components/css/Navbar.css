@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     z-index: 999;
     /* overflow: hidden ; */
@@ -19,6 +19,7 @@
     height: 80px;
     max-width: 1500px;
     font-weight: bold;
+    z-index: 1;
 }
 
 .navbar-logo {
@@ -83,6 +84,9 @@
     display: none;
 }
 
+.sticky {
+    position: sticky;
+}
 
 @media screen and (max-width: 960px) {
 
@@ -109,6 +113,8 @@
         opacity: 1;
         transition: all 0.5s ease;
         height: calc(100vh - 80px);
+        background: /*#242222*/ linear-gradient(135deg, rgb(8, 100, 109) 0%, rgb(135, 8, 75) 100%);
+
     }
 
     .nav-menu.active {
