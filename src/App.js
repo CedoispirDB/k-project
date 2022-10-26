@@ -120,6 +120,7 @@ function App() {
 
   return (
     <>
+      
       <Router>
         <Navbar name={currentUsername} signedIn={signedIn} />
         <Routes>
